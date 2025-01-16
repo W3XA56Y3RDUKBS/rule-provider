@@ -212,26 +212,6 @@ class RuleProcessor:
         except Exception as e:
             logger.error(f"Error writing to {file_path}: {e}")
 
-    @staticmethod
-    def _log_update_status(filename: str, original_count: int, new_count: int):
-        """
-        记录规则更新状态
-        
-        Args:
-            filename: 文件名
-            original_count: 原规则数量
-            new_count: 新规则数量
-        """
-        if original_count == 0:
-            logger.info(f"{filename}: Created with {new_count} rules")
-        elif original_count != new_count:
-            logger.info(f"{filename}: Updated from {original_count} to {new_count} rules")
-            logger.info(f"{filename}: {'#' * 20}")
-            logger.info(f"{filename}: ##### Updated #####")
-            logger.info(f"{filename}: {'#' * 20}")
-        else:
-            logger.info(f"{filename}: No changes detected")
-
 def download_additional_files():
     """
     下载额外的规则文件
