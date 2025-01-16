@@ -166,36 +166,48 @@ class RuleProcessor:
             rules: 要保存的规则集合
             filename: 目标文件名
         """
-        # 创建保存目录
         merged_dir = os.path.join('./rules', 'merged')
         os.makedirs(merged_dir, exist_ok=True)
-        
         file_path = os.path.join(merged_dir, filename)
-        original_count = 0
         
-        # 读取现有文件的规则数量（如果存在）
+        # 读取现有规则
+        original_rules = set()
         if os.path.exists(file_path):
             try:
                 with open(file_path, 'r', encoding='utf-8') as f:
                     data = yaml.safe_load(f)
                     if data and 'payload' in data:
-                        original_count = len(data['payload'])
+                        original_rules = set(data['payload'])
             except Exception as e:
                 logger.error(f"Error reading existing file {filename}: {e}")
+        
+        # 比较规则内容
+        rules_added = rules - original_rules
+        rules_removed = original_rules - rules
+        has_changes = bool(rules_added or rules_removed)
         
         # 保存新规则
         try:
             with open(file_path, 'w', encoding='utf-8') as f:
                 yaml.dump(
-                    {'payload': sorted(rules)},  # 规则排序后保存
+                    {'payload': sorted(rules)},
                     f,
-                    allow_unicode=True,  # 允许 Unicode 字符
-                    default_flow_style=False,  # 使用块格式而不是流格式
-                    sort_keys=False  # 不对键进行排序
+                    allow_unicode=True,
+                    default_flow_style=False,
+                    sort_keys=False
                 )
             
-            new_count = len(rules)
-            self._log_update_status(filename, original_count, new_count)
+            # 记录更详细的更新状态
+            if not original_rules:
+                logger.info(f"{filename}: Created with {len(rules)} rules")
+            elif has_changes:
+                logger.info(f"{filename}: Changes detected:")
+                if rules_added:
+                    logger.info(f"  - Added {len(rules_added)} rules")
+                if rules_removed:
+                    logger.info(f"  - Removed {len(rules_removed)} rules")
+            else:
+                logger.info(f"{filename}: No changes detected")
             
         except Exception as e:
             logger.error(f"Error writing to {file_path}: {e}")
