@@ -1,0 +1,44 @@
+payload:
+  - DOMAIN-SUFFIX,monday.com
+  - DOMAIN-SUFFIX,box.com
+  #- DOMAIN-SUFFIX,graph.microsoft.com
+  - DOMAIN-SUFFIX,fctg.travel
+  - DOMAIN-SUFFIX,translate.google.com
+  - DOMAIN-SUFFIX,download.synology.com
+  - DOMAIN-SUFFIX,wiki.metacubex.one
+  - DOMAIN-SUFFIX,msftncsi.com
+  - DOMAIN-SUFFIX,msftconnecttest.com
+  - DOMAIN-SUFFIX,api.codelife.cc
+  - DOMAIN-SUFFIX,voxpopme.com
+  - DOMAIN-SUFFIX,tencentcloud.com
+  - DOMAIN-SUFFIX,trtc.io
+  - DOMAIN-SUFFIX,connector.myqnapcloud.com
+  
+  - DOMAIN-KEYWORD,focusvision
+  - DOMAIN-KEYWORD,workflowmax
+  - DOMAIN-KEYWORD,workflowmax2
+  - DOMAIN-KEYWORD,zendesk
+  - DOMAIN-KEYWORD,forstasurveys
+  - DOMAIN-KEYWORD,displayr
+  - DOMAIN-KEYWORD,wetransfer
+  - DOMAIN-KEYWORD,realeye
+  - DOMAIN-KEYWORD,qualtrics
+  - DOMAIN-KEYWORD,surveyfiles
+  - DOMAIN-KEYWORD,miro
+  - DOMAIN-KEYWORD,linkedin
+  - DOMAIN-KEYWORD,paralleldata
+  - DOMAIN-KEYWORD,onlinesurvey
+  - DOMAIN-KEYWORD,gladys
+  - DOMAIN-KEYWORD,paralleldata
+  - DOMAIN-KEYWORD,notion
+  - DOMAIN-KEYWORD,npmmirror
+  - DOMAIN-KEYWORD,decipherinc
+  - DOMAIN-KEYWORD,gladybehaviorally
+  - DOMAIN-KEYWORD,behaviorally
+  - DOMAIN-KEYWORD,github
+  - DOMAIN-KEYWORD,docker
+  - DOMAIN-KEYWORD,synology
+  - DOMAIN-KEYWORD,voxpopme
+  - DOMAIN-KEYWORD,colab
+  
+  - PROCESS-NAME,WinSCP.exe

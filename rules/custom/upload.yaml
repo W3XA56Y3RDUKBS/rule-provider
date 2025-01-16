@@ -1,0 +1,7 @@
+payload:
+  # 上传备份
+  - DOMAIN-SUFFIX,d.pcs.baidu.com
+  
+  # iot
+  - DOMAIN-SUFFIX,tplinkcloud.com.cn
+  - DOMAIN-SUFFIX,dreame.tech

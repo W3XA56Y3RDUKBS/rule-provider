@@ -1,0 +1,10 @@
+payload:
+  - DOMAIN-KEYWORD,hulianxun
+  - DOMAIN-KEYWORD,hulianxungeng
+  - DOMAIN-SUFFIX,developer.apple.com
+  - IP-CIDR,52.60.181.85/32
+  - IP-CIDR,47.243.30.50/32
+  - IP-CIDR,8.210.226.225/32
+  - IP-CIDR,47.243.202.135/32
+  - IP-CIDR,47.242.19.113/32
+  - IP-CIDR,47.254.195.68/32

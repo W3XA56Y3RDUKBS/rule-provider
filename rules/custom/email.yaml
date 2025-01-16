@@ -1,0 +1,10 @@
+payload:
+  - DST-PORT,993
+  - SRC-PORT,993
+  - DST-PORT,995
+  - SRC-PORT,995
+  - DST-PORT,587
+  - SRC-PORT,587
+  - DOMAIN-KEYWORD,mail
+  - DOMAIN-KEYWORD,smtp
+  - DOMAIN-KEYWORD,imap

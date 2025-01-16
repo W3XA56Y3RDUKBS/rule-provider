@@ -1,0 +1,12 @@
+payload:
+- DOMAIN-KEYWORD,booking
+- DOMAIN-KEYWORD,busuu
+- DOMAIN-KEYWORD,coursera
+- DOMAIN-KEYWORD,docker
+- DOMAIN-KEYWORD,linkedin
+- DOMAIN-KEYWORD,parsec
+- DOMAIN-SUFFIX,cursor.sh
+- DOMAIN-SUFFIX,download.synology.com
+- DOMAIN-SUFFIX,note.ms
+- DOMAIN-SUFFIX,paoluz.link
+- DOMAIN-SUFFIX,support.parsec.app

@@ -1,0 +1,21 @@
+payload:
+  - DOMAIN-SUFFIX,steampipe.akamaized.net
+  - DOMAIN-SUFFIX,uplaypc-s-ubisoft.cdn.ubi.com
+  - DOMAIN-SUFFIX,gamedownloads-rockstargames-com.akamaized.net
+  - DOMAIN-SUFFIX,dl.playstation.net
+  - DOMAIN-SUFFIX,level3.ssl.blizzard.com
+  - DOMAIN-SUFFIX,cdn.blizzard.com
+  - DOMAIN-SUFFIX,cache1-par1.steamcontent.com
+  - DOMAIN-SUFFIX,cache2-par1.steamcontent.com
+  - DOMAIN-SUFFIX,cache3-par1.steamcontent.com
+  - DOMAIN-SUFFIX,cache4-par1.steamcontent.com
+  - DOMAIN-SUFFIX,cache5-par1.steamcontent.com
+  - DOMAIN-SUFFIX,cache6-par1.steamcontent.com
+  - DOMAIN-SUFFIX,cache7-par1.steamcontent.com
+  - DOMAIN-SUFFIX,cache8-par1.steamcontent.com
+  - DOMAIN-SUFFIX,cache9-par1.steamcontent.com
+  - DOMAIN-SUFFIX,cache10-par1.steamcontent.com
+  - DOMAIN-SUFFIX,cache11-par1.steamcontent.com
+  - DOMAIN-SUFFIX,cache12-par1.steamcontent.com
+  - DOMAIN-SUFFIX,cache13-par1.steamcontent.com
+  - DOMAIN-SUFFIX,cache14-par1.steamcontent.com
