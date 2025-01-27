@@ -82,6 +82,7 @@ payload:
 - DOMAIN-SUFFIX,hitpt.org
 - DOMAIN-SUFFIX,hudbt.hust.edu.cn
 - DOMAIN-SUFFIX,icetorrent.org
+- DOMAIN-SUFFIX,iothub.aliyuncs.com
 - DOMAIN-SUFFIX,iptorrents.com
 - DOMAIN-SUFFIX,j99.info
 - DOMAIN-SUFFIX,jomodns.com
@@ -95,6 +96,7 @@ payload:
 - DOMAIN-SUFFIX,lztr.me
 - DOMAIN-SUFFIX,m-team.cc
 - DOMAIN-SUFFIX,madsrevolution.net
+- DOMAIN-SUFFIX,mi.com
 - DOMAIN-SUFFIX,moecat.best
 - DOMAIN-SUFFIX,morethan.tv
 - DOMAIN-SUFFIX,msg.vg
