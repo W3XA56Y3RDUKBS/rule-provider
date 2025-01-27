@@ -5,3 +5,5 @@ payload:
   # iot
   - DOMAIN-SUFFIX,tplinkcloud.com.cn
   - DOMAIN-SUFFIX,dreame.tech
+  - DOMAIN-SUFFIX,mi.com
+  - DOMAIN-SUFFIX,iothub.aliyuncs.com
