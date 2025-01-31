@@ -5,6 +5,7 @@ payload:
 - DOMAIN-KEYWORD,docker
 - DOMAIN-KEYWORD,linkedin
 - DOMAIN-KEYWORD,parsec
+- DOMAIN-KEYWORD,perplexity
 - DOMAIN-SUFFIX,cursor.sh
 - DOMAIN-SUFFIX,download.synology.com
 - DOMAIN-SUFFIX,note.ms
