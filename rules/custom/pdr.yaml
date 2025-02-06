@@ -12,7 +12,7 @@ payload:
   - DOMAIN-SUFFIX,voxpopme.com
   - DOMAIN-SUFFIX,tencentcloud.com
   - DOMAIN-SUFFIX,trtc.io
-  - DOMAIN-SUFFIX,connector.myqnapcloud.com
+  # - DOMAIN-SUFFIX,connector.myqnapcloud.com
   
   - DOMAIN-KEYWORD,focusvision
   - DOMAIN-KEYWORD,workflowmax
