@@ -34,7 +34,6 @@ payload:
 - DOMAIN-SUFFIX,chatgpt.com
 - DOMAIN-SUFFIX,claude.ai
 - DOMAIN-SUFFIX,client-api.arkoselabs.com
-- DOMAIN-SUFFIX,connector.myqnapcloud.com
 - DOMAIN-SUFFIX,download.synology.com
 - DOMAIN-SUFFIX,events.statsigapi.net
 - DOMAIN-SUFFIX,fctg.travel
