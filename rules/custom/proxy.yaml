@@ -14,3 +14,5 @@ payload:
   - DOMAIN-KEYWORD,parsec
   - DOMAIN-KEYWORD,perplexity
   - DOMAIN-KEYWORD,bestbuy
+  - DOMAIN-SUFFIX,npmjs.com
+  - DOMAIN-SUFFIX,npmjs.org
