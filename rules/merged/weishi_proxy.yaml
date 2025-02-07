@@ -10,5 +10,7 @@ payload:
 - DOMAIN-SUFFIX,cursor.sh
 - DOMAIN-SUFFIX,download.synology.com
 - DOMAIN-SUFFIX,note.ms
+- DOMAIN-SUFFIX,npmjs.com
+- DOMAIN-SUFFIX,npmjs.org
 - DOMAIN-SUFFIX,paoluz.link
 - DOMAIN-SUFFIX,support.parsec.app
