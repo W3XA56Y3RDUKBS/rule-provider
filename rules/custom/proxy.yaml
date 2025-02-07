@@ -16,3 +16,4 @@ payload:
   - DOMAIN-KEYWORD,bestbuy
   - DOMAIN-SUFFIX,npmjs.com
   - DOMAIN-SUFFIX,npmjs.org
+  - DOMAIN-SUFFIX,steamdb.info
