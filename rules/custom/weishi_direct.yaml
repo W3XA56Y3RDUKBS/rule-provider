@@ -15,3 +15,5 @@ payload:
   - DOMAIN-KEYWORD,parsec
   - DOMAIN-SUFFIX,llnwd.net
   - DOMAIN-KEYWORD,douyinvod
+  # ntp server like ntp.ntsc.ac.cn or ntp.aliyun.com or ntp.ubuntu.com
+  - DOMAIN-SUFFIX,ntp.ubuntu.com
