@@ -3,14 +3,12 @@ payload:
 - DOMAIN,d1q6f0aelx0por.cloudfront.net
 - DOMAIN,d2wy8f7a9ursnm.cloudfront.net
 - DOMAIN,d36jcksde1wxzq.cloudfront.net
-- DOMAIN,lf3-static.bytednsdoc.com
 - DOMAIN,steambroadcast.akamaized.net
 - DOMAIN,steamcommunity-a.akamaihd.net
 - DOMAIN,steampipe.akamaized.net
 - DOMAIN,steamstore-a.akamaihd.net
 - DOMAIN,steamusercontent-a.akamaihd.net
 - DOMAIN,steamuserimages-a.akamaihd.net
-- DOMAIN,v5-dy-o-abtest.zjcdn.com
 - DOMAIN-KEYWORD,1drv
 - DOMAIN-KEYWORD,1e100
 - DOMAIN-KEYWORD,abema
@@ -303,7 +301,6 @@ payload:
 - DOMAIN-SUFFIX,amazon.com
 - DOMAIN-SUFFIX,amazonaws.com
 - DOMAIN-SUFFIX,ameblo.jp
-- DOMAIN-SUFFIX,amemv.com
 - DOMAIN-SUFFIX,america.gov
 - DOMAIN-SUFFIX,american.edu
 - DOMAIN-SUFFIX,americangreencard.com
@@ -1377,10 +1374,6 @@ payload:
 - DOMAIN-SUFFIX,dougscripts.com
 - DOMAIN-SUFFIX,douhokanko.net
 - DOMAIN-SUFFIX,doujincafe.com
-- DOMAIN-SUFFIX,douyincdn.com
-- DOMAIN-SUFFIX,douyinpic.com
-- DOMAIN-SUFFIX,douyinstatic.com
-- DOMAIN-SUFFIX,douyinvod.com
 - DOMAIN-SUFFIX,dowei.org
 - DOMAIN-SUFFIX,dowjones.com
 - DOMAIN-SUFFIX,download.synology.com
@@ -1735,7 +1728,6 @@ payload:
 - DOMAIN-SUFFIX,feitianacademy.org
 - DOMAIN-SUFFIX,feixiaohao.com
 - DOMAIN-SUFFIX,feministteacher.com
-- DOMAIN-SUFFIX,fengkongcloud.com
 - DOMAIN-SUFFIX,fengzhenghu.com
 - DOMAIN-SUFFIX,fengzhenghu.net
 - DOMAIN-SUFFIX,fevernet.com
@@ -2740,7 +2732,6 @@ payload:
 - DOMAIN-SUFFIX,idiomconnection.com
 - DOMAIN-SUFFIX,idlcoyote.com
 - DOMAIN-SUFFIX,idouga.com
-- DOMAIN-SUFFIX,idouyinvod.com
 - DOMAIN-SUFFIX,idreamx.com
 - DOMAIN-SUFFIX,idsam.com
 - DOMAIN-SUFFIX,idv.tw
@@ -2899,8 +2890,6 @@ payload:
 - DOMAIN-SUFFIX,ivonblog.com
 - DOMAIN-SUFFIX,ivpn.net
 - DOMAIN-SUFFIX,iwara.tv
-- DOMAIN-SUFFIX,ixigua.com
-- DOMAIN-SUFFIX,ixiguavideo.com
 - DOMAIN-SUFFIX,ixquick.com
 - DOMAIN-SUFFIX,ixxx.com
 - DOMAIN-SUFFIX,iyouport.com
@@ -4245,7 +4234,6 @@ payload:
 - DOMAIN-SUFFIX,psiphon3.com
 - DOMAIN-SUFFIX,psiphontoday.com
 - DOMAIN-SUFFIX,pstatic.net
-- DOMAIN-SUFFIX,pstatp.com
 - DOMAIN-SUFFIX,pt.im
 - DOMAIN-SUFFIX,pts.org.tw
 - DOMAIN-SUFFIX,ptt.cc
@@ -4716,7 +4704,6 @@ payload:
 - DOMAIN-SUFFIX,sndcdn.com
 - DOMAIN-SUFFIX,sneakme.net
 - DOMAIN-SUFFIX,snowlionpub.com
-- DOMAIN-SUFFIX,snssdk.com
 - DOMAIN-SUFFIX,so-net.net.tw
 - DOMAIN-SUFFIX,sobees.com
 - DOMAIN-SUFFIX,soc.mil
@@ -5275,7 +5262,6 @@ payload:
 - DOMAIN-SUFFIX,tortoisesvn.net
 - DOMAIN-SUFFIX,torvpn.com
 - DOMAIN-SUFFIX,totalvpn.com
-- DOMAIN-SUFFIX,toutiao.com
 - DOMAIN-SUFFIX,toutiaoabc.com
 - DOMAIN-SUFFIX,towngain.com
 - DOMAIN-SUFFIX,toypark.in
@@ -5957,8 +5943,6 @@ payload:
 - DOMAIN-SUFFIX,xfinity.com
 - DOMAIN-SUFFIX,xgmyd.com
 - DOMAIN-SUFFIX,xhamster.com
-- DOMAIN-SUFFIX,xhscdn.com
-- DOMAIN-SUFFIX,xhscdn.net
 - DOMAIN-SUFFIX,xianba.net
 - DOMAIN-SUFFIX,xianchawang.net
 - DOMAIN-SUFFIX,xianjian.tw
@@ -5967,7 +5951,6 @@ payload:
 - DOMAIN-SUFFIX,xiaochuncnjp.com
 - DOMAIN-SUFFIX,xiaod.in
 - DOMAIN-SUFFIX,xiaohexie.com
-- DOMAIN-SUFFIX,xiaohongshu.com
 - DOMAIN-SUFFIX,xiaolan.me
 - DOMAIN-SUFFIX,xiaoma.org
 - DOMAIN-SUFFIX,xiaomi.eu
