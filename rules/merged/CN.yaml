@@ -33,7 +33,6 @@ payload:
 - DOMAIN,intl-rcd.iqiyi.com
 - DOMAIN,intl-subscription.iqiyi.com
 - DOMAIN,intl.iqiyi.com
-- DOMAIN,lf3-static.bytednsdoc.com
 - DOMAIN,m.bilibili.com
 - DOMAIN,mobileso.bz.mgtv.com
 - DOMAIN,origin-a.akamaihd.net
@@ -47,7 +46,6 @@ payload:
 - DOMAIN,steamstatic.com.8686c.com
 - DOMAIN,uplaypc-s-ubisoft.cdn.ubionline.com.cn
 - DOMAIN,upos-hz-mirrorakam.akamaized.net
-- DOMAIN,v5-dy-o-abtest.zjcdn.com
 - DOMAIN,wmsjsteam.com
 - DOMAIN,www.bilibili.com
 - DOMAIN,xvcf1.xboxlive.com
@@ -488,7 +486,6 @@ payload:
 - DOMAIN-SUFFIX,ibytedapm.com
 - DOMAIN-SUFFIX,icetorrent.org
 - DOMAIN-SUFFIX,iciba.com
-- DOMAIN-SUFFIX,idouyinvod.com
 - DOMAIN-SUFFIX,idqqimg.com
 - DOMAIN-SUFFIX,iesdouyin.com
 - DOMAIN-SUFFIX,ifeng.com
@@ -516,7 +513,6 @@ payload:
 - DOMAIN-SUFFIX,ithome.com
 - DOMAIN-SUFFIX,ixdzs.com
 - DOMAIN-SUFFIX,ixigua.com
-- DOMAIN-SUFFIX,ixiguavideo.com
 - DOMAIN-SUFFIX,j99.info
 - DOMAIN-SUFFIX,jcloud-cache.com
 - DOMAIN-SUFFIX,jcloud-cache.net
@@ -968,7 +964,6 @@ payload:
 - DOMAIN-SUFFIX,xauat6.edu.cn
 - DOMAIN-SUFFIX,xdrig.com
 - DOMAIN-SUFFIX,xhscdn.com
-- DOMAIN-SUFFIX,xhscdn.net
 - DOMAIN-SUFFIX,xiachufang.com
 - DOMAIN-SUFFIX,xiami.com
 - DOMAIN-SUFFIX,xiami.net
