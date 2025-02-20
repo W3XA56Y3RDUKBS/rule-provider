@@ -1,0 +1,11 @@
+payload:
+
+  # ubisoft
+  - DOMAIN-KEYWORD,ubisoft
+
+  # just dance
+  - DOMAIN-SUFFIX,ubistatic-a.akamaihd.net
+  - DOMAIN-SUFFIX,public-ubiservices.ubi.com
+  - DOMAIN-SUFFIX,public-ws-ubiservices.ubi.com
+  - DOMAIN-KEYWORD,just-dance
+  - DOMAIN-KEYWORD,justdance
