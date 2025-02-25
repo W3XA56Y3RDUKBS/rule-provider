@@ -1,4 +1,5 @@
 payload:
+- AND,((DOMAIN-KEYWORD,cache),(DOMAIN-SUFFIX,steamcontent.com))
 - DOMAIN,assets1.xboxlive.cn
 - DOMAIN,assets1.xboxlive.com
 - DOMAIN,assets2.xboxlive.cn
