@@ -19,4 +19,4 @@ payload:
   - DOMAIN-SUFFIX,cache12-par1.steamcontent.com
   - DOMAIN-SUFFIX,cache13-par1.steamcontent.com
   - DOMAIN-SUFFIX,cache14-par1.steamcontent.com
-  - AND, ((DOMAIN-KEYWORD,cache),(DOMAIN-SUFFIX,steamcontent.com))
+  - AND,((DOMAIN-KEYWORD,cache),(DOMAIN-SUFFIX,steamcontent.com))
