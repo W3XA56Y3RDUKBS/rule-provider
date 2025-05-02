@@ -59,7 +59,6 @@ payload:
 - DOMAIN-SUFFIX,d.pcs.baidu.com
 - DOMAIN-SUFFIX,dicmusic.club
 - DOMAIN-SUFFIX,discfan.net
-- DOMAIN-SUFFIX,dreame.tech
 - DOMAIN-SUFFIX,duokan.com
 - DOMAIN-SUFFIX,duokanbox.com
 - DOMAIN-SUFFIX,dxdhd.com
@@ -106,7 +105,6 @@ payload:
 - DOMAIN-SUFFIX,hudbt.hust.edu.cn
 - DOMAIN-SUFFIX,i3ciebwk6ixfb.com
 - DOMAIN-SUFFIX,icetorrent.org
-- DOMAIN-SUFFIX,iothub.aliyuncs.com
 - DOMAIN-SUFFIX,iptorrents.com
 - DOMAIN-SUFFIX,j99.info
 - DOMAIN-SUFFIX,jomodns.com
@@ -230,7 +228,6 @@ payload:
 - DOMAIN-SUFFIX,torrentleech.org
 - DOMAIN-SUFFIX,torrentseeds.org
 - DOMAIN-SUFFIX,totheglory.im
-- DOMAIN-SUFFIX,tplinkcloud.com.cn
 - DOMAIN-SUFFIX,trontv.com
 - DOMAIN-SUFFIX,u2.dmhy.org
 - DOMAIN-SUFFIX,uhdbits.org
