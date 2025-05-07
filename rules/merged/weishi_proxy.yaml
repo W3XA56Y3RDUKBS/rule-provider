@@ -1,17 +1,2 @@
 payload:
-- DOMAIN-KEYWORD,bestbuy
-- DOMAIN-KEYWORD,booking
-- DOMAIN-KEYWORD,busuu
-- DOMAIN-KEYWORD,coursera
-- DOMAIN-KEYWORD,docker
-- DOMAIN-KEYWORD,linkedin
-- DOMAIN-KEYWORD,parsec
-- DOMAIN-KEYWORD,perplexity
 - DOMAIN-SUFFIX,cursor.sh
-- DOMAIN-SUFFIX,download.synology.com
-- DOMAIN-SUFFIX,note.ms
-- DOMAIN-SUFFIX,npmjs.com
-- DOMAIN-SUFFIX,npmjs.org
-- DOMAIN-SUFFIX,paoluz.link
-- DOMAIN-SUFFIX,steamdb.info
-- DOMAIN-SUFFIX,support.parsec.app
