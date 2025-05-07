@@ -2,8 +2,12 @@ payload:
   # 上传备份
   - DOMAIN-SUFFIX,d.pcs.baidu.com
   
+  # China Mobile
+  - IP-ASN,56041
+  - IP-ASN,9808
+
   # iot
-  # - DOMAIN-SUFFIX,tplinkcloud.com.cn
+  - DOMAIN-SUFFIX,tplinkcloud.com.cn
   # - DOMAIN-SUFFIX,dreame.tech
   # - DOMAIN-SUFFIX,mi.com
   # - DOMAIN-SUFFIX,iothub.aliyuncs.com
