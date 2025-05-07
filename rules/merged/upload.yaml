@@ -228,6 +228,7 @@ payload:
 - DOMAIN-SUFFIX,torrentleech.org
 - DOMAIN-SUFFIX,torrentseeds.org
 - DOMAIN-SUFFIX,totheglory.im
+- DOMAIN-SUFFIX,tplinkcloud.com.cn
 - DOMAIN-SUFFIX,trontv.com
 - DOMAIN-SUFFIX,u2.dmhy.org
 - DOMAIN-SUFFIX,uhdbits.org
@@ -271,6 +272,8 @@ payload:
 - DOMAIN-SUFFIX,youpin.com.cn
 - DOMAIN-SUFFIX,yunjiasu-cdn.net
 - DOMAIN-SUFFIX,zhutidasai.com
+- IP-ASN,56041
+- IP-ASN,9808
 - IP-CIDR,110.43.63.242/32
 - IP-CIDR,120.133.33.222/32
 - IP-CIDR,47.241.176.221/32
