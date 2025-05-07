@@ -78,12 +78,10 @@ payload:
 - DOMAIN-KEYWORD,cloudflarestorage
 - DOMAIN-KEYWORD,cmdw
 - DOMAIN-KEYWORD,cn-hk-eq-bcache-
-- DOMAIN-KEYWORD,douyinvod
 - DOMAIN-KEYWORD,duobao
 - DOMAIN-KEYWORD,jdpay
 - DOMAIN-KEYWORD,moke
 - DOMAIN-KEYWORD,oddba
-- DOMAIN-KEYWORD,parsec
 - DOMAIN-KEYWORD,qhimg
 - DOMAIN-KEYWORD,torrent
 - DOMAIN-KEYWORD,tracker
@@ -122,7 +120,6 @@ payload:
 - DOMAIN-SUFFIX,360top.com
 - DOMAIN-SUFFIX,36kr.com
 - DOMAIN-SUFFIX,3dmgame.com
-- DOMAIN-SUFFIX,4.ipw.cn
 - DOMAIN-SUFFIX,423down.com
 - DOMAIN-SUFFIX,4399.com
 - DOMAIN-SUFFIX,4399pk.com
@@ -133,7 +130,6 @@ payload:
 - DOMAIN-SUFFIX,52pt.site
 - DOMAIN-SUFFIX,56.com
 - DOMAIN-SUFFIX,58.com
-- DOMAIN-SUFFIX,6.ipw.cn
 - DOMAIN-SUFFIX,71.am
 - DOMAIN-SUFFIX,71edge.com
 - DOMAIN-SUFFIX,7fresh.com
@@ -369,7 +365,6 @@ payload:
 - DOMAIN-SUFFIX,dangdang.com
 - DOMAIN-SUFFIX,dao123.com
 - DOMAIN-SUFFIX,dbankcdn.com
-- DOMAIN-SUFFIX,ddns.oray.com
 - DOMAIN-SUFFIX,dfcfw.com
 - DOMAIN-SUFFIX,dhrest.com
 - DOMAIN-SUFFIX,dianping.com
@@ -704,7 +699,6 @@ payload:
 - DOMAIN-SUFFIX,lizhi.fm
 - DOMAIN-SUFFIX,lizhi.io
 - DOMAIN-SUFFIX,lizhifm.com
-- DOMAIN-SUFFIX,llnwd.net
 - DOMAIN-SUFFIX,lofter.com
 - DOMAIN-SUFFIX,logiseasy.com
 - DOMAIN-SUFFIX,luoo.net
@@ -754,10 +748,7 @@ payload:
 - DOMAIN-SUFFIX,mxhichina.com
 - DOMAIN-SUFFIX,myanonamouse.net
 - DOMAIN-SUFFIX,myapp.com
-- DOMAIN-SUFFIX,myddns.rocks
 - DOMAIN-SUFFIX,myqcloud.com
-- DOMAIN-SUFFIX,myqnapcloud.cn
-- DOMAIN-SUFFIX,myqnapcloud.com
 - DOMAIN-SUFFIX,myunlu.com
 - DOMAIN-SUFFIX,nanyangpt.com
 - DOMAIN-SUFFIX,ncore.cc
@@ -897,7 +888,6 @@ payload:
 - DOMAIN-SUFFIX,suning.com
 - DOMAIN-SUFFIX,synology.com
 - DOMAIN-SUFFIX,taihe.com
-- DOMAIN-SUFFIX,tailscale.com
 - DOMAIN-SUFFIX,taobao.com
 - DOMAIN-SUFFIX,taobaocdn.com
 - DOMAIN-SUFFIX,tbcache.com
