@@ -1,19 +1,7 @@
 payload:
-  - DOMAIN-SUFFIX,myqnapcloud.cn
-  - DOMAIN-SUFFIX,qq.com
-  - DOMAIN-SUFFIX,myqnapcloud.com
-  - DOMAIN-SUFFIX,myddns.rocks
-  - DOMAIN-SUFFIX,tailscale.com
-  - DOMAIN-SUFFIX,ddns.oray.com
-  - DOMAIN-SUFFIX,4.ipw.cn
-  - DOMAIN-SUFFIX,6.ipw.cn
   - DOMAIN-SUFFIX,speed.neu6.edu.cn
   - DOMAIN-KEYWORD,cloudflarestorage
   - DOMAIN-KEYWORD,weishi
   - DOMAIN-KEYWORD,cmdw
   - DOMAIN-KEYWORD,oddba
-  - DOMAIN-KEYWORD,parsec
-  - DOMAIN-SUFFIX,llnwd.net
-  - DOMAIN-KEYWORD,douyinvod
-  # ntp server like ntp.ntsc.ac.cn or ntp.aliyun.com or ntp.ubuntu.com
   - DOMAIN-SUFFIX,ntp.ubuntu.com
