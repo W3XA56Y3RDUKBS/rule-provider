@@ -281,3 +281,4 @@ payload:
 - IP-CIDR,58.220.59.2/32
 - PROCESS-NAME,com.xiaomi.mibrain.speech
 - PROCESS-NAME,小米云服务.exe
+- SRC-IP-CIDR,192.168.4.169/32
