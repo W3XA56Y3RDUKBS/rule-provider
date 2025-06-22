@@ -59,7 +59,6 @@ payload:
 - DOMAIN-SUFFIX,d.pcs.baidu.com
 - DOMAIN-SUFFIX,dicmusic.club
 - DOMAIN-SUFFIX,discfan.net
-- DOMAIN-SUFFIX,dreame.tech
 - DOMAIN-SUFFIX,duokan.com
 - DOMAIN-SUFFIX,duokanbox.com
 - DOMAIN-SUFFIX,dxdhd.com
@@ -106,7 +105,6 @@ payload:
 - DOMAIN-SUFFIX,hudbt.hust.edu.cn
 - DOMAIN-SUFFIX,i3ciebwk6ixfb.com
 - DOMAIN-SUFFIX,icetorrent.org
-- DOMAIN-SUFFIX,iothub.aliyuncs.com
 - DOMAIN-SUFFIX,iptorrents.com
 - DOMAIN-SUFFIX,j99.info
 - DOMAIN-SUFFIX,jomodns.com
@@ -274,6 +272,8 @@ payload:
 - DOMAIN-SUFFIX,youpin.com.cn
 - DOMAIN-SUFFIX,yunjiasu-cdn.net
 - DOMAIN-SUFFIX,zhutidasai.com
+- IP-ASN,56041
+- IP-ASN,9808
 - IP-CIDR,110.43.63.242/32
 - IP-CIDR,120.133.33.222/32
 - IP-CIDR,47.241.176.221/32
@@ -281,3 +281,4 @@ payload:
 - IP-CIDR,58.220.59.2/32
 - PROCESS-NAME,com.xiaomi.mibrain.speech
 - PROCESS-NAME,小米云服务.exe
+- SRC-IP-CIDR,192.168.4.169/32
