@@ -1,28 +1,40 @@
 import requests
 from requests.adapters import HTTPAdapter
-from requests.packages.urllib3.util.retry import Retry
+from urllib3.util.retry import Retry
 import os
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import time
 import yaml
-from typing import Set, List, Dict
+from typing import Set, List, Dict, Optional
 import logging
 
-# 配置日志记录器
+# --- 全局配置 ---
+# 日志记录器配置
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
+# v2fly 规则的根 URL
+V2FLY_BASE_URL = "https://raw.githubusercontent.com/v2fly/domain-list-community/refs/heads/master/data/"
+
+# --- RuleProcessor 类 ---
 class RuleProcessor:
     """
     规则处理器类
-    负责下载、处理和保存 Clash 规则文件
+    负责下载、处理、转换和保存 Clash 规则文件
     """
-    def __init__(self):
+    def __init__(self, max_workers: int = 20):
         # 初始化带有重试机制的 HTTP 会话
-        self.session = self._create_session()
-        
+        self.session = self._create_session(max_workers)
+        self.executor = ThreadPoolExecutor(max_workers=max_workers)
+        # 规则类型映射
+        self.v2fly_rule_map = {
+            'full': 'DOMAIN',
+            'domain': 'DOMAIN-SUFFIX',
+            'keyword': 'DOMAIN-KEYWORD',
+        }
+
     @staticmethod
-    def _create_session() -> requests.Session:
+    def _create_session(pool_size: int) -> requests.Session:
         """
         创建一个配置了重试机制的 HTTP 会话
         
@@ -30,7 +42,6 @@ class RuleProcessor:
         - 最多重试 5 次
         - 退避因子 0.5（每次重试等待时间递增）
         - 对指定的 HTTP 状态码进行重试
-        - 连接池最大连接数 20
         
         Returns:
             requests.Session: 配置好的会话对象
@@ -44,42 +55,27 @@ class RuleProcessor:
         )
         adapter = HTTPAdapter(
             max_retries=retries,
-            pool_connections=20,  # 连接池最大连接数
-            pool_maxsize=20  # 连接池最大大小
+            pool_connections=pool_size,
+            pool_maxsize=pool_size
         )
-        # 为 HTTP 和 HTTPS 配置重试适配器
         session.mount('https://', adapter)
         session.mount('http://', adapter)
         return session
 
-    def download_file(self, url: str) -> str:
-        """
-        从指定 URL 下载文件内容
-        
-        Args:
-            url: 要下载的文件 URL
-            
-        Returns:
-            str: 文件内容，下载失败则返回 None
-        """
+    def download_file(self, url: str) -> Optional[str]:
+        """从指定 URL 下载文件内容"""
         try:
-            response = self.session.get(url, timeout=10)
+            response = self.session.get(url, timeout=15)
             response.raise_for_status()
+            # 明确指定 UTF-8 解码
+            response.encoding = 'utf-8'
             return response.text
         except requests.RequestException as e:
             logger.error(f"Error downloading {url}: {e}")
             return None
 
-    def read_local_file(self, file_path: str) -> str:
-        """
-        读取本地文件内容
-        
-        Args:
-            file_path: 本地文件路径
-            
-        Returns:
-            str: 文件内容，读取失败则返回 None
-        """
+    def read_local_file(self, file_path: str) -> Optional[str]:
+        """读取本地文件内容"""
         try:
             with open(file_path, 'r', encoding='utf-8') as f:
                 return f.read()
@@ -87,47 +83,115 @@ class RuleProcessor:
             logger.error(f"Error reading local file {file_path}: {e}")
             return None
 
-    @staticmethod
-    def process_content(content: str) -> Set[str]:
+    def _parse_v2fly_line(self, line: str) -> Optional[str]:
+        """解析单行 v2fly 格式的规则"""
+        line = line.strip()
+        if not line or line.startswith('#'):
+            return None
+
+        parts = line.split(':', 1)
+        if len(parts) == 2 and parts[0] in self.v2fly_rule_map:
+            rule_type_source, value = parts
+            clash_rule_type = self.v2fly_rule_map.get(rule_type_source.lower())
+            return f"{clash_rule_type},{value.strip()}"
+        
+        # 处理没有前缀的裸域名，默认为 DOMAIN-SUFFIX
+        return f"DOMAIN-SUFFIX,{line}"
+
+    def _recursive_parse_v2fly(self, content: str, processed_includes: Set[str]) -> Set[str]:
         """
-        处理 YAML 格式的规则内容
+        递归地解析 v2fly 内容，处理 include 指令
         
         Args:
-            content: YAML 格式的规则内容
-            
+            content (str): 当前文件内容
+            processed_includes (Set[str]): 已处理过的 include 名称，防止循环引用
+        
         Returns:
-            Set[str]: 处理后的规则集合（已去重）
+            Set[str]: 解析出的 Clash 规则集合
         """
+        rules = set()
+        includes_to_fetch = set()
+
+        # 第一遍：分离规则和新的 includes
+        for line in content.splitlines():
+            line = line.strip()
+            if not line or line.startswith('#'):
+                continue
+            
+            if line.startswith('include:'):
+                include_name = line.split(':', 1)[1].strip()
+                if include_name not in processed_includes:
+                    processed_includes.add(include_name)
+                    includes_to_fetch.add(include_name)
+            else:
+                parsed_rule = self._parse_v2fly_line(line)
+                if parsed_rule:
+                    rules.add(parsed_rule)
+
+        # 第二遍：并发下载并递归解析 includes
+        if includes_to_fetch:
+            future_to_include = {
+                self.executor.submit(self.download_file, f"{V2FLY_BASE_URL}{name}"): name
+                for name in includes_to_fetch
+            }
+            
+            for future in as_completed(future_to_include):
+                include_name = future_to_include[future]
+                try:
+                    include_content = future.result()
+                    if include_content:
+                        logger.info(f"  -> Processing include: {include_name}")
+                        # 递归调用
+                        nested_rules = self._recursive_parse_v2fly(include_content, processed_includes)
+                        rules.update(nested_rules)
+                    else:
+                        logger.warning(f"  -> Failed to download include: {include_name}")
+                except Exception as e:
+                    logger.error(f"  -> Error processing include {include_name}: {e}")
+                    
+        return rules
+        
+    def process_v2fly_category(self, url: str) -> Set[str]:
+        """
+        处理 v2fly 规则的入口方法。
+        
+        Args:
+            url (str): 初始 v2fly 规则文件的 URL
+        
+        Returns:
+            Set[str]: 解析出的所有规则（包括所有递归的 include）
+        """
+        initial_content = self.download_file(url)
+        if not initial_content:
+            logger.error(f"Could not start processing, failed to download initial file: {url}")
+            return set()
+        
+        # 初始化一个集合来跟踪已处理的 include，以防无限递归
+        processed_includes = set()
+        return self._recursive_parse_v2fly(initial_content, processed_includes)
+
+    @staticmethod
+    def process_yaml_content(content: str) -> Set[str]:
+        """处理标准 Clash YAML 格式的规则内容"""
         if not content:
             return set()
             
         try:
-            # 解析 YAML 内容
             data = yaml.safe_load(content)
             if not isinstance(data, dict) or 'payload' not in data:
                 return set()
                 
-            # 过滤规则：去除注释和空白字符，并去重
             rules = set()
             for rule in data['payload']:
                 if isinstance(rule, str) and not rule.startswith('#'):
                     rules.add(rule.strip())
             return rules
-            
         except yaml.YAMLError as e:
             logger.error(f"Error parsing YAML content: {e}")
             return set()
 
-    def process_sources(self, sources: List[str]) -> Set[str]:
-        """
-        并发处理多个规则源（支持远程 URL 和本地文件）
-        
-        Args:
-            sources: 规则源列表（URL 或本地文件路径）
-            
-        Returns:
-            Set[str]: 合并后的规则集合
-        """
+    def process_yaml_sources(self, sources: List[str]) -> Set[str]:
+        """并发处理多个标准 YAML 规则源"""
         all_rules = set()
         
         # 使用线程池并发处理规则源
@@ -150,7 +214,7 @@ class RuleProcessor:
                 try:
                     content = future.result()
                     if content:
-                        rules = self.process_content(content)
+                        rules = self.process_yaml_content(content)
                         all_rules.update(rules)
                         logger.info(f"Processed {source}: found {len(rules)} rules")
                 except Exception as e:
@@ -159,18 +223,11 @@ class RuleProcessor:
         return all_rules
 
     def save_to_file(self, rules: Set[str], filename: str):
-        """
-        将规则保存到文件
-        
-        Args:
-            rules: 要保存的规则集合
-            filename: 目标文件名
-        """
+        """将规则集合保存到文件，并报告变更"""
         merged_dir = os.path.join('./rules', 'merged')
         os.makedirs(merged_dir, exist_ok=True)
         file_path = os.path.join(merged_dir, filename)
         
-        # 读取现有规则
         original_rules = set()
         if os.path.exists(file_path):
             try:
@@ -181,78 +238,62 @@ class RuleProcessor:
             except Exception as e:
                 logger.error(f"Error reading existing file {filename}: {e}")
         
-        # 比较规则内容
-        rules_added = rules - original_rules
-        rules_removed = original_rules - rules
-        has_changes = bool(rules_added or rules_removed)
+        # 排序后的列表用于比较和写入，保证一致性
+        sorted_rules = sorted(list(rules))
+        sorted_original_rules = sorted(list(original_rules))
         
-        # 保存新规则
+        if sorted_rules == sorted_original_rules:
+            logger.info(f"{filename}: No changes detected. Total rules: {len(sorted_rules)}")
+            return
+            
         try:
             with open(file_path, 'w', encoding='utf-8') as f:
                 yaml.dump(
-                    {'payload': sorted(rules)},
+                    {'payload': sorted_rules},
                     f,
                     allow_unicode=True,
                     default_flow_style=False,
                     sort_keys=False
                 )
             
-            # 记录更详细的更新状态
-            if not original_rules:
-                logger.info(f"{filename}: Created with {len(rules)} rules")
-            elif has_changes:
-                logger.info(f"{filename}: Changes detected:")
-                if rules_added:
-                    logger.info(f"  - Added {len(rules_added)} rules")
-                if rules_removed:
-                    logger.info(f"  - Removed {len(rules_removed)} rules")
-            else:
-                logger.info(f"{filename}: No changes detected")
+            rules_added = rules - original_rules
+            rules_removed = original_rules - rules
             
+            logger.info(f"{filename}: Updated! Total rules: {len(rules)}")
+            if rules_added:
+                logger.info(f"  - Added {len(rules_added)} rules.")
+            if rules_removed:
+                logger.info(f"  - Removed {len(rules_removed)} rules.")
         except Exception as e:
             logger.error(f"Error writing to {file_path}: {e}")
 
-def download_additional_files():
-    """
-    下载额外的规则文件
-    这些文件使用不同的格式，需要单独处理
-    """
-    additional_files = {
-        'CNDomain.list': 'https://app.nloli.xyz/static/subrule/clash_rule/CNDomain.list',
-        'Proxy.list': 'https://app.nloli.xyz/static/subrule/Proxy.list'
-    }
-    
-    # 创建保存目录
-    merged_dir = os.path.join('./rules', 'merged')
-    os.makedirs(merged_dir, exist_ok=True)
-    
-    # 下载并保存文件
-    session = requests.Session()
-    for filename, url in additional_files.items():
-        try:
-            response = session.get(url, timeout=10)
-            response.raise_for_status()
-            
-            file_path = os.path.join(merged_dir, filename)
-            with open(file_path, 'wb') as f:
-                f.write(response.content)
-            logger.info(f"Successfully downloaded {filename}")
-            
-        except Exception as e:
-            logger.error(f"Error downloading {filename} from {url}: {e}")
-
+# --- 主流程 ---
 def main():
-    """
-    主函数：协调整个规则处理流程
-    """
+    """主函数：协调整个规则处理流程"""
     start_time = time.time()
     processor = RuleProcessor()
     
-    # 规则分类配置
+    # 【新增】v2fly 规则源配置
+    v2fly_sources = {
+        'category-game-platforms-download': f'{V2FLY_BASE_URL}category-game-platforms-download',
+        'category-games-!cn': f'{V2FLY_BASE_URL}category-games-!cn',
+        'category-games-cn': f'{V2FLY_BASE_URL}category-games-cn'
+    }
+
+    # 【新增】处理 v2fly 规则
+    for category, url in v2fly_sources.items():
+        logger.info(f"\nProcessing v2fly category: {category}")
+        try:
+            rules = processor.process_v2fly_category(url)
+            processor.save_to_file(rules, f'{category}.yaml')
+        except Exception as e:
+            logger.error(f"FATAL: Error processing v2fly category {category}: {e}")
+            continue
+
+    # 规则分类配置 (标准 YAML 源)
     categories = {
-        'LocalAreaNetwork': [
-            "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/LocalAreaNetwork.yaml"
-        ],
+        'LocalAreaNetwork': ["https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/LocalAreaNetwork.yaml"],
+        # ... 你原有的其他 categories ...
         'CN': [
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/ChinaDNS.yaml",
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/PublicDirectCDN.yaml",
@@ -366,8 +407,8 @@ def main():
         'upload': [
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/Ruleset/Baidu.yaml",
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/PrivateTracker.yaml",
-            "./rules/custom/upload.yaml"
-            # "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/XiaoMi/XiaoMi.yaml"
+            "./rules/custom/upload.yaml",
+            "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/XiaoMi/XiaoMi.yaml"
         ],
         'TikTok': [
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/TikTok.yaml",
@@ -375,25 +416,19 @@ def main():
         ]
     }
     
-    # 处理每个规则类别
+    # 处理每个标准 YAML 规则类别
     for category, sources in categories.items():
-        logger.info(f"\nProcessing category: {category}")
+        logger.info(f"\nProcessing YAML category: {category}")
         try:
-            rules = processor.process_sources(sources)
+            rules = processor.process_yaml_sources(sources)
             processor.save_to_file(rules, f'{category}.yaml')
         except Exception as e:
-            logger.error(f"Error processing category {category}: {e}")
+            logger.error(f"FATAL: Error processing YAML category {category}: {e}")
             continue
 
-    # 下载额外的规则文件
-    logger.info("\nDownloading additional files...")
-    try:
-        download_additional_files()
-    except Exception as e:
-        logger.error(f"Error downloading additional files: {e}")
-
     # 输出总耗时
-    logger.info(f"\nCompleted in {time.time() - start_time:.2f} seconds")
+    logger.info(f"\nAll tasks completed in {time.time() - start_time:.2f} seconds")
 
 if __name__ == "__main__":
+    # 确保依赖已安装: pip install requests pyyaml
     main()
