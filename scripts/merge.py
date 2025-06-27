@@ -74,6 +74,35 @@ class RuleProcessor:
             logger.error(f"Error downloading {url}: {e}")
             return None
 
+    def download_binary_file(self, url: str, dest_path: str):
+        """
+        从 URL 下载二进制文件并保存到指定路径。
+        针对 .dat 和 .mmdb 等文件。
+        """
+        try:
+            # 确保目标目录存在
+            os.makedirs(os.path.dirname(dest_path), exist_ok=True)
+            
+            logger.info(f"Downloading: {os.path.basename(dest_path)} from {url}")
+            # 使用更长的超时时间并流式传输，适合大文件
+            response = self.session.get(url, timeout=120, stream=True)
+            response.raise_for_status()
+
+            # 以二进制写模式打开文件
+            with open(dest_path, 'wb') as f:
+                # 使用 iter_content 逐块写入，减少内存占用
+                for chunk in response.iter_content(chunk_size=8192):
+                    f.write(chunk)
+            
+            logger.info(f" -> Successfully downloaded {os.path.basename(dest_path)}")
+            return True
+        except requests.RequestException as e:
+            logger.error(f" -> Error downloading {url}: {e}")
+            return False
+        except Exception as e:
+            logger.error(f" -> An error occurred while saving {dest_path}: {e}")
+            return False
+
     def read_local_file(self, file_path: str) -> Optional[str]:
         """读取本地文件内容"""
         try:
@@ -425,6 +454,45 @@ def main():
         except Exception as e:
             logger.error(f"FATAL: Error processing YAML category {category}: {e}")
             continue
+    
+    # --- 【新增】下载 .dat 和 .mmdb 文件 ---
+    logger.info("\nProcessing binary GEO files...")
+    geo_files_to_download = [
+        {
+            'url': 'https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geoip.dat',
+            'filename': 'geoip.dat'
+        },
+        {
+            'url': 'https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geosite.dat',
+            'filename': 'geosite.dat'
+        },
+        {
+            'url': 'https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/country.mmdb',
+            'filename': 'country.mmdb'
+        }
+    ]
+    
+    merged_dir = os.path.join('./rules', 'merged')
+    
+    # 使用独立的线程池并发下载
+    with ThreadPoolExecutor(max_workers=3) as geo_executor:
+        future_to_url = {
+            geo_executor.submit(
+                processor.download_binary_file, 
+                file_info['url'], 
+                os.path.join(merged_dir, file_info['filename'])
+            ): file_info['url'] 
+            for file_info in geo_files_to_download
+        }
+        
+        # 等待所有下载任务完成，并捕获可能的异常
+        for future in as_completed(future_to_url):
+            url = future_to_url[future]
+            try:
+                # .result() 会重新引发在线程中发生的异常
+                future.result()
+            except Exception as exc:
+                logger.error(f"An exception occurred during download from {url}: {exc}")
 
     # 输出总耗时
     logger.info(f"\nAll tasks completed in {time.time() - start_time:.2f} seconds")
