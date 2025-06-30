@@ -28,7 +28,7 @@ class RuleProcessor:
         self.executor = ThreadPoolExecutor(max_workers=max_workers)
         # 规则类型映射
         self.v2fly_rule_map = {
-            'full': 'DOMAIN',
+            'full': 'DOMAIN-SUFFIX',
             'domain': 'DOMAIN-SUFFIX',
             'keyword': 'DOMAIN-KEYWORD',
         }
