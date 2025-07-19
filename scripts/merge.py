@@ -384,7 +384,8 @@ def main():
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/AppleTV.yaml",
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/Ruleset/Instagram.yaml",
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/Ruleset/Twitter.yaml",
-            "./rules/custom/media.yaml"
+            "./rules/custom/media.yaml",
+            "./rules/custom/proxy.yaml"
         ],
         'GameDownload': [
             "./rules/custom/GameDownload.yaml",
