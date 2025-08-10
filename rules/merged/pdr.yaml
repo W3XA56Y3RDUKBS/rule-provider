@@ -49,6 +49,7 @@ payload:
 - DOMAIN-SUFFIX,openai.com
 - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
 - DOMAIN-SUFFIX,sentry.io
+- DOMAIN-SUFFIX,sora.com
 - DOMAIN-SUFFIX,stripe.com
 - DOMAIN-SUFFIX,tencentcloud.com
 - DOMAIN-SUFFIX,translate.google.com
