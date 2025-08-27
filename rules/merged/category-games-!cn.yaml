@@ -518,6 +518,7 @@ payload:
 - DOMAIN-SUFFIX,steamcdn-a.akamaihd.net
 - DOMAIN-SUFFIX,steamchina.com @cn
 - DOMAIN-SUFFIX,steamcommunity-a.akamaihd.net
+- DOMAIN-SUFFIX,steamcommunity-a.akamaihd.net.edgesuite.net
 - DOMAIN-SUFFIX,steamcommunity.com
 - DOMAIN-SUFFIX,steamcontent.com
 - DOMAIN-SUFFIX,steamdb.info
