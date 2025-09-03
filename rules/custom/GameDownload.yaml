@@ -5,6 +5,22 @@ payload:
   - DOMAIN-SUFFIX,dl.playstation.net
   - DOMAIN-SUFFIX,level3.ssl.blizzard.com
   - DOMAIN-SUFFIX,cdn.blizzard.com
+  - DOMAIN-SUFFIX,cache1-hkg1.steamcontent.com
+  - DOMAIN-SUFFIX,cache2-hkg1.steamcontent.com
+  - DOMAIN-SUFFIX,cache3-hkg1.steamcontent.com
+  - DOMAIN-SUFFIX,cache4-hkg1.steamcontent.com
+  - DOMAIN-SUFFIX,cache5-hkg1.steamcontent.com
+  - DOMAIN-SUFFIX,cache6-hkg1.steamcontent.com
+  - DOMAIN-SUFFIX,cache7-hkg1.steamcontent.com
+  - DOMAIN-SUFFIX,cache8-hkg1.steamcontent.com
+  - DOMAIN-SUFFIX,cache9-hkg1.steamcontent.com
+  - DOMAIN-SUFFIX,cache10-hkg1.steamcontent.com
+  - DOMAIN-SUFFIX,cache11-hkg1.steamcontent.com
+  - DOMAIN-SUFFIX,cache12-hkg1.steamcontent.com
+  - DOMAIN-SUFFIX,cache13-hkg1.steamcontent.com
+  - DOMAIN-SUFFIX,cache14-hkg1.steamcontent.com
+  - DOMAIN-SUFFIX,cache15-hkg1.steamcontent.com
+  - DOMAIN-SUFFIX,cache16-hkg1.steamcontent.com
   - DOMAIN-SUFFIX,cache1-par1.steamcontent.com
   - DOMAIN-SUFFIX,cache2-par1.steamcontent.com
   - DOMAIN-SUFFIX,cache3-par1.steamcontent.com

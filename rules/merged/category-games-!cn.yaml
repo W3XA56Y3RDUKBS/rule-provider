@@ -478,6 +478,7 @@ payload:
 - DOMAIN-SUFFIX,skate2.com
 - DOMAIN-SUFFIX,sketchfab.com
 - DOMAIN-SUFFIX,snk-corp.co.jp
+- DOMAIN-SUFFIX,snk-corp.info
 - DOMAIN-SUFFIX,snkplaymore.info
 - DOMAIN-SUFFIX,sonyentertainmentnetwork.com
 - DOMAIN-SUFFIX,spearhead.kr
@@ -517,6 +518,7 @@ payload:
 - DOMAIN-SUFFIX,steamcdn-a.akamaihd.net
 - DOMAIN-SUFFIX,steamchina.com @cn
 - DOMAIN-SUFFIX,steamcommunity-a.akamaihd.net
+- DOMAIN-SUFFIX,steamcommunity-a.akamaihd.net.edgesuite.net
 - DOMAIN-SUFFIX,steamcommunity.com
 - DOMAIN-SUFFIX,steamcontent.com
 - DOMAIN-SUFFIX,steamdb.info

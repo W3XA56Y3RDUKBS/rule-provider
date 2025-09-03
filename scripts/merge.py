@@ -391,6 +391,7 @@ def main():
             "./rules/custom/GameDownload.yaml",
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/GameDownload.yaml",
             "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/GameDownloadCN/GameDownloadCN.yaml",
+            "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Providers/Ruleset/SteamRegionCheck.yaml",
             "./rules/custom/weishi_direct.yaml"
         ],
         'VPS': [
