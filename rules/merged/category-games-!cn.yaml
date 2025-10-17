@@ -517,6 +517,7 @@ payload:
 - DOMAIN-SUFFIX,steambroadcast.akamaized.net
 - DOMAIN-SUFFIX,steamcdn-a.akamaihd.net
 - DOMAIN-SUFFIX,steamchina.com @cn
+- DOMAIN-SUFFIX,steamcloudsweden.blob.core.windows.net
 - DOMAIN-SUFFIX,steamcommunity-a.akamaihd.net
 - DOMAIN-SUFFIX,steamcommunity-a.akamaihd.net.edgesuite.net
 - DOMAIN-SUFFIX,steamcommunity.com
