@@ -34,6 +34,7 @@ payload:
 - DOMAIN-SUFFIX,5054399.net
 - DOMAIN-SUFFIX,71acg.com
 - DOMAIN-SUFFIX,71acg.net
+- DOMAIN-SUFFIX,9xgame.com
 - DOMAIN-SUFFIX,aki-game.com @cn
 - DOMAIN-SUFFIX,anticheatexpert.com @cn
 - DOMAIN-SUFFIX,appeeres.com
@@ -58,9 +59,12 @@ payload:
 - DOMAIN-SUFFIX,ffbuddy.com @cn
 - DOMAIN-SUFFIX,forevernine.com
 - DOMAIN-SUFFIX,funnycore.com
+- DOMAIN-SUFFIX,fxt365.com
+- DOMAIN-SUFFIX,gameabc.com
 - DOMAIN-SUFFIX,gamebonfire.com @cn
 - DOMAIN-SUFFIX,gameitop.com @cn
 - DOMAIN-SUFFIX,gameloop.com @cn
+- DOMAIN-SUFFIX,gamemei.com
 - DOMAIN-SUFFIX,gcloudcs.com @cn
 - DOMAIN-SUFFIX,gcloudcstest.com @cn
 - DOMAIN-SUFFIX,gcloudcstestonly.com @cn
@@ -90,6 +94,7 @@ payload:
 - DOMAIN-SUFFIX,kurogames.com @cn
 - DOMAIN-SUFFIX,labycore.cn @cn
 - DOMAIN-SUFFIX,ledu.com
+- DOMAIN-SUFFIX,longtugame.com
 - DOMAIN-SUFFIX,ludosuperstar.cn @cn
 - DOMAIN-SUFFIX,ludoworld.net @cn
 - DOMAIN-SUFFIX,mahjongai.net @cn
@@ -109,6 +114,7 @@ payload:
 - DOMAIN-SUFFIX,mihoyogift.com @cn
 - DOMAIN-SUFFIX,mihoyomall.com @cn
 - DOMAIN-SUFFIX,miyoushe.com @cn
+- DOMAIN-SUFFIX,morefreegame.com
 - DOMAIN-SUFFIX,mszdld.cn @cn
 - DOMAIN-SUFFIX,mszdld.com @cn
 - DOMAIN-SUFFIX,mszdld.net @cn
@@ -179,12 +185,14 @@ payload:
 - DOMAIN-SUFFIX,wegame.com.cn @cn
 - DOMAIN-SUFFIX,wegameplus.com @cn
 - DOMAIN-SUFFIX,werepository.com.cn @cn
+- DOMAIN-SUFFIX,winegame.net
 - DOMAIN-SUFFIX,wo1wan.com
 - DOMAIN-SUFFIX,xd.cn
 - DOMAIN-SUFFIX,xd.com
 - DOMAIN-SUFFIX,xdcdn.net
 - DOMAIN-SUFFIX,xindong.com
 - 'DOMAIN-SUFFIX,xn--owtw8cc49ajfl.cn @cn #碧蓝幻想.cn'
+- DOMAIN-SUFFIX,ycgame.com
 - DOMAIN-SUFFIX,youba.com
 - DOMAIN-SUFFIX,yuanshen.com @cn
 - DOMAIN-SUFFIX,yxdmgame.com @cn
