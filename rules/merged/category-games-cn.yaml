@@ -146,7 +146,6 @@ payload:
 - DOMAIN-SUFFIX,scsentry.cn @cn
 - DOMAIN-SUFFIX,skydweller.cn @cn
 - DOMAIN-SUFFIX,sl916.com @cn
-- DOMAIN-SUFFIX,steampp.net
 - DOMAIN-SUFFIX,supercell.com @!cn
 - DOMAIN-SUFFIX,supercellcommunity.cn @cn
 - DOMAIN-SUFFIX,supercellsupport.cn @cn
