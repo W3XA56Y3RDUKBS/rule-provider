@@ -90,6 +90,7 @@ payload:
 - DOMAIN-SUFFIX,daoc.net
 - DOMAIN-SUFFIX,darkageofcamelot.com
 - DOMAIN-SUFFIX,darkness-risen.com
+- DOMAIN-SUFFIX,datarouter.apps.netherrealm.com
 - DOMAIN-SUFFIX,dawngate.com
 - DOMAIN-SUFFIX,dawngatechronicles.com
 - DOMAIN-SUFFIX,deadspacegame.com
@@ -601,6 +602,11 @@ payload:
 - DOMAIN-SUFFIX,visceralgames.com
 - DOMAIN-SUFFIX,wariolandshakeit.com
 - DOMAIN-SUFFIX,wariowarediy.com
+- DOMAIN-SUFFIX,warnerbrosgames.com
+- DOMAIN-SUFFIX,wb-agora-hydra-file-storage-k1.s3.amazonaws.com
+- DOMAIN-SUFFIX,wbagora.com
+- DOMAIN-SUFFIX,wbgames.com
+- DOMAIN-SUFFIX,wbinsights.com
 - DOMAIN-SUFFIX,wii-u.com
 - DOMAIN-SUFFIX,wiifit.com
 - DOMAIN-SUFFIX,wiifitu.com
