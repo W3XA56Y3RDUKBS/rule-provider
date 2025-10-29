@@ -225,6 +225,7 @@ payload:
 - DOMAIN-SUFFIX,instituteofwar.org
 - DOMAIN-SUFFIX,itch.io
 - DOMAIN-SUFFIX,itch.zone
+- DOMAIN-SUFFIX,joinsquad.com
 - DOMAIN-SUFFIX,joyjoy.net
 - DOMAIN-SUFFIX,kirbysepicyarn.com
 - DOMAIN-SUFFIX,kirbysuperstarultra.com
@@ -370,6 +371,8 @@ payload:
 - DOMAIN-SUFFIX,nintendoswitchtogether.com
 - DOMAIN-SUFFIX,nintendowii.com
 - DOMAIN-SUFFIX,notify.ppy.sh
+- DOMAIN-SUFFIX,offworldindustries.com
+- DOMAIN-SUFFIX,offworldindustries.net
 - DOMAIN-SUFFIX,omotenashi.cygames.jp
 - DOMAIN-SUFFIX,op.gg
 - DOMAIN-SUFFIX,opgg-static.akamaized.net

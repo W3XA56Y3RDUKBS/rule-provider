@@ -83,6 +83,9 @@ payload:
 - DOMAIN-SUFFIX,haydaypop.cn @cn
 - DOMAIN-SUFFIX,hdyxgame.com @cn
 - DOMAIN-SUFFIX,heavenlywind.cc
+- DOMAIN-SUFFIX,hero.com
+- DOMAIN-SUFFIX,heroesports.com
+- DOMAIN-SUFFIX,herogame.com
 - DOMAIN-SUFFIX,hkgcloudcs.com @cn
 - DOMAIN-SUFFIX,i3839.com
 - DOMAIN-SUFFIX,ihappystudio.cn @cn
@@ -144,6 +147,7 @@ payload:
 - DOMAIN-SUFFIX,scescdn.cn @cn
 - DOMAIN-SUFFIX,scid.cn @cn
 - DOMAIN-SUFFIX,scsentry.cn @cn
+- DOMAIN-SUFFIX,shyxhy.com
 - DOMAIN-SUFFIX,skydweller.cn @cn
 - DOMAIN-SUFFIX,sl916.com @cn
 - DOMAIN-SUFFIX,supercell.com @!cn
@@ -192,6 +196,7 @@ payload:
 - DOMAIN-SUFFIX,xindong.com
 - 'DOMAIN-SUFFIX,xn--owtw8cc49ajfl.cn @cn #碧蓝幻想.cn'
 - DOMAIN-SUFFIX,ycgame.com
+- DOMAIN-SUFFIX,yingxiong.com
 - DOMAIN-SUFFIX,youba.com
 - DOMAIN-SUFFIX,yuanshen.com @cn
 - DOMAIN-SUFFIX,yxdmgame.com @cn
