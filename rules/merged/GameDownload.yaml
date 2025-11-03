@@ -91,6 +91,7 @@ payload:
 - DOMAIN-SUFFIX,gamedownloads-rockstargames-com.akamaized.net
 - DOMAIN-SUFFIX,level3.ssl.blizzard.com
 - DOMAIN-SUFFIX,lmstudio.ai
+- DOMAIN-SUFFIX,lobechat.com
 - DOMAIN-SUFFIX,ntp.ubuntu.com
 - DOMAIN-SUFFIX,pdl.wow.battlenet.com.cn
 - DOMAIN-SUFFIX,speed.neu6.edu.cn
