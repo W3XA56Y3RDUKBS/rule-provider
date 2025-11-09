@@ -432,6 +432,7 @@ payload:
 - DOMAIN-SUFFIX,download4.epicgames.com
 - DOMAIN-SUFFIX,dyn.riotcdn.net
 - DOMAIN-SUFFIX,edge.steam-dns.top.comcast.net
+- DOMAIN-SUFFIX,egdownload.fastly-edge.com
 - DOMAIN-SUFFIX,epicgames-download1-1251447533.file.myqcloud.com @cn
 - DOMAIN-SUFFIX,epicgames-download1.akamaized.net
 - DOMAIN-SUFFIX,eu.cdn.blizzard.com
