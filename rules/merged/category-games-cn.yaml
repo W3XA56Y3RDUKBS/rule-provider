@@ -55,6 +55,7 @@ payload:
 - DOMAIN-SUFFIX,cdncl.net
 - DOMAIN-SUFFIX,codm.com
 - DOMAIN-SUFFIX,cowlevel.net
+- DOMAIN-SUFFIX,dobest.com
 - DOMAIN-SUFFIX,edu4399.com
 - DOMAIN-SUFFIX,ffbuddy.com
 - DOMAIN-SUFFIX,forevernine.com
@@ -96,6 +97,7 @@ payload:
 - DOMAIN-SUFFIX,juequling.com
 - DOMAIN-SUFFIX,kurogames.com @cn
 - DOMAIN-SUFFIX,labycore.cn
+- DOMAIN-SUFFIX,langrenclub.com
 - DOMAIN-SUFFIX,ledu.com
 - DOMAIN-SUFFIX,longtugame.com
 - DOMAIN-SUFFIX,ludosuperstar.cn
@@ -142,6 +144,7 @@ payload:
 - DOMAIN-SUFFIX,roblox.qq.com
 - DOMAIN-SUFFIX,robloxdev.cn
 - DOMAIN-SUFFIX,roco.qq.com
+- DOMAIN-SUFFIX,sanguosha.com
 - DOMAIN-SUFFIX,sccreator.cn
 - DOMAIN-SUFFIX,sccreators.cn
 - DOMAIN-SUFFIX,scescdn.cn
@@ -173,12 +176,14 @@ payload:
 - DOMAIN-SUFFIX,tiancitycdn.com
 - DOMAIN-SUFFIX,timibase.com
 - DOMAIN-SUFFIX,tuer123.com
+- DOMAIN-SUFFIX,tuyoo.com
 - DOMAIN-SUFFIX,vgtime.com
 - DOMAIN-SUFFIX,videoxiaoyouxi.com
 - DOMAIN-SUFFIX,vrzwk.cn
 - DOMAIN-SUFFIX,vrzwk.com
 - DOMAIN-SUFFIX,vrzwk.net
 - DOMAIN-SUFFIX,vrzwk.top
+- DOMAIN-SUFFIX,wanmei.com
 - DOMAIN-SUFFIX,wanwan4399.com
 - DOMAIN-SUFFIX,wcbygame.com
 - DOMAIN-SUFFIX,we4399.com
@@ -188,14 +193,18 @@ payload:
 - DOMAIN-SUFFIX,wegameplus.com
 - DOMAIN-SUFFIX,werepository.com.cn
 - DOMAIN-SUFFIX,winegame.net
+- DOMAIN-SUFFIX,wmsj.cn
 - DOMAIN-SUFFIX,wo1wan.com
 - DOMAIN-SUFFIX,xd.cn
 - DOMAIN-SUFFIX,xd.com
 - DOMAIN-SUFFIX,xdcdn.net
+- DOMAIN-SUFFIX,xhlsgs.com
 - DOMAIN-SUFFIX,xindong.com
+- DOMAIN-SUFFIX,xinwuji.com
 - 'DOMAIN-SUFFIX,xn--owtw8cc49ajfl.cn #碧蓝幻想.cn'
 - DOMAIN-SUFFIX,ycgame.com
 - DOMAIN-SUFFIX,yingxiong.com
+- DOMAIN-SUFFIX,yokaverse.com
 - DOMAIN-SUFFIX,youba.com
 - DOMAIN-SUFFIX,yuanshen.com
 - DOMAIN-SUFFIX,yxdmgame.com
@@ -204,4 +213,5 @@ payload:
 - DOMAIN-SUFFIX,yxwsgame.com
 - DOMAIN-SUFFIX,yzyxgame.com
 - DOMAIN-SUFFIX,zcjbgame.com
+- DOMAIN-SUFFIX,zhuoyou.com
 - DOMAIN-SUFFIX,zhuoyuegame.com
