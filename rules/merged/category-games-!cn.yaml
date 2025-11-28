@@ -87,6 +87,7 @@ payload:
 - DOMAIN-SUFFIX,curseforge.com
 - DOMAIN-SUFFIX,cygames.co.jp
 - DOMAIN-SUFFIX,cygames.jp
+- DOMAIN-SUFFIX,d1unuk07s6td74.cloudfront.net
 - DOMAIN-SUFFIX,daoc.net
 - DOMAIN-SUFFIX,darkageofcamelot.com
 - DOMAIN-SUFFIX,darkness-risen.com
@@ -443,6 +444,9 @@ payload:
 - DOMAIN-SUFFIX,quixel.com
 - DOMAIN-SUFFIX,quixel.se
 - DOMAIN-SUFFIX,radgametools.com
+- DOMAIN-SUFFIX,rblx.org
+- DOMAIN-SUFFIX,rbx.com
+- DOMAIN-SUFFIX,rbxcdn.com
 - DOMAIN-SUFFIX,realityscan.com
 - DOMAIN-SUFFIX,regexp:^cdn-akamai-.+\.gog-services\.com$ @cn
 - DOMAIN-SUFFIX,regexp:^cdn\d-epicgames-\d+\.file\.myqcloud\.com$ @cn
@@ -465,6 +469,12 @@ payload:
 - DOMAIN-SUFFIX,riotgames.tv
 - DOMAIN-SUFFIX,riotpin.com
 - DOMAIN-SUFFIX,riotpoints.com
+- DOMAIN-SUFFIX,roblox-api.arkoselabs.co
+- DOMAIN-SUFFIX,roblox-load-generator-configuration.s3.us-east-2.amazonaws.com
+- DOMAIN-SUFFIX,roblox-poc.global.ssl.fastly.net
+- DOMAIN-SUFFIX,roblox.com
+- DOMAIN-SUFFIX,robloxcorp.s.llnwi.net
+- DOMAIN-SUFFIX,robloxlabs.com
 - DOMAIN-SUFFIX,roborecall.com
 - DOMAIN-SUFFIX,rockstargames.com
 - DOMAIN-SUFFIX,rsg.sc
