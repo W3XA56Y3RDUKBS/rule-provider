@@ -10,6 +10,7 @@ payload:
 - DOMAIN-SUFFIX,blizzard.gcdn.cloudn.co.kr
 - DOMAIN-SUFFIX,blzddist1-a.akamaihd.net
 - DOMAIN-SUFFIX,blzddistkr1-a.akamaihd.net
+- DOMAIN-SUFFIX,blzdist-d3.necdn.leihuo.netease.com @cn
 - DOMAIN-SUFFIX,blzdist-di.necdn.leihuo.netease.com @cn
 - DOMAIN-SUFFIX,blzdist-hs.necdn.leihuo.netease.com @cn
 - DOMAIN-SUFFIX,blzdist-ow.necdn.leihuo.netease.com @cn
@@ -449,6 +450,7 @@ payload:
 - DOMAIN-SUFFIX,ks-foundation.secure.dyn.riotcdn.net
 - DOMAIN-SUFFIX,level3.blizzard.com
 - DOMAIN-SUFFIX,level3.ssl.blizzard.com
+- DOMAIN-SUFFIX,lion.secure.dyn.riotcdn.net
 - DOMAIN-SUFFIX,lol.dyn.riotcdn.net
 - DOMAIN-SUFFIX,lol.secure.dyn.riotcdn.net
 - DOMAIN-SUFFIX,lv.queniujq.cn @cn
@@ -456,6 +458,7 @@ payload:
 - DOMAIN-SUFFIX,mock-game.dyn.riotcdn.net
 - DOMAIN-SUFFIX,mock-game.secure.dyn.riotcdn.net
 - DOMAIN-SUFFIX,origin-a.akamaihd.net
+- DOMAIN-SUFFIX,prod.cloudflare.cdn.ea.com
 - DOMAIN-SUFFIX,recommendations-api.gog.com
 - DOMAIN-SUFFIX,riot-client.dyn.riotcdn.net
 - DOMAIN-SUFFIX,riot-client.secure.dyn.riotcdn.net
@@ -473,6 +476,7 @@ payload:
 - DOMAIN-SUFFIX,tlu.dl.delivery.mp.microsoft.com @cn
 - DOMAIN-SUFFIX,trts.baishancdnx.cn @cn
 - DOMAIN-SUFFIX,ubisoftconnect.cdn.ubi.com
+- DOMAIN-SUFFIX,ubisoftconnect.eo-edgefunctions7.com @cn
 - DOMAIN-SUFFIX,uplaypc-s-ubisoft-ww.cdn.ubi.com
 - DOMAIN-SUFFIX,uplaypc-s-ubisoft.cdn.ubi.com
 - DOMAIN-SUFFIX,uplaypc-s-ubisoft.cdn.ubionline.com.cn @cn
