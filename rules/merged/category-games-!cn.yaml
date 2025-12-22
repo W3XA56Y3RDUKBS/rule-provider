@@ -659,6 +659,9 @@ payload:
 - DOMAIN-SUFFIX,valvesoftware.com
 - DOMAIN-SUFFIX,videos-rockstargames-com.akamaized.net
 - DOMAIN-SUFFIX,visceralgames.com
+- DOMAIN-SUFFIX,vrchat.cloud
+- DOMAIN-SUFFIX,vrchat.com
+- DOMAIN-SUFFIX,vrchat.net
 - DOMAIN-SUFFIX,wariolandshakeit.com
 - DOMAIN-SUFFIX,wariowarediy.com
 - DOMAIN-SUFFIX,warnerbrosgames.com
