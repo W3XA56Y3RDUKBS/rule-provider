@@ -426,6 +426,7 @@ payload:
 - DOMAIN-SUFFIX,cloudflare.epicgamescdn.com
 - DOMAIN-SUFFIX,content.cdp.bethesda.net
 - DOMAIN-SUFFIX,dl.delivery.mp.microsoft.com @cn
+- DOMAIN-SUFFIX,dl.playstation.net
 - DOMAIN-SUFFIX,dl.steam.clngaa.com @cn
 - DOMAIN-SUFFIX,download.cdp.bethesda.net
 - DOMAIN-SUFFIX,download.epicgames.com
