@@ -104,6 +104,7 @@ payload:
 - DOMAIN-SUFFIX,dicela.com
 - DOMAIN-SUFFIX,dicela.net
 - DOMAIN-SUFFIX,diddykongracing.com
+- DOMAIN-SUFFIX,dinopoloclub.com
 - DOMAIN-SUFFIX,dkr.com
 - DOMAIN-SUFFIX,dl.steam.clngaa.com @cn
 - DOMAIN-SUFFIX,dlgarenanow-a.akamaihd.net
@@ -306,6 +307,7 @@ payload:
 - DOMAIN-SUFFIX,mirrorsedge2.com
 - DOMAIN-SUFFIX,mirrorsedge2d.com
 - DOMAIN-SUFFIX,mo.co
+- DOMAIN-SUFFIX,mobimon.com.tw
 - DOMAIN-SUFFIX,modrinth.com
 - DOMAIN-SUFFIX,mojang.com
 - DOMAIN-SUFFIX,molesports.com
@@ -384,6 +386,7 @@ payload:
 - DOMAIN-SUFFIX,nintendoswitchtogether.com
 - DOMAIN-SUFFIX,nintendowii.com
 - DOMAIN-SUFFIX,notify.ppy.sh
+- DOMAIN-SUFFIX,noxygames.com
 - DOMAIN-SUFFIX,offworldindustries.com
 - DOMAIN-SUFFIX,offworldindustries.net
 - DOMAIN-SUFFIX,omotenashi.cygames.jp
@@ -455,6 +458,8 @@ payload:
 - DOMAIN-SUFFIX,quixel.com
 - DOMAIN-SUFFIX,quixel.se
 - DOMAIN-SUFFIX,radgametools.com
+- DOMAIN-SUFFIX,rayark.download
+- DOMAIN-SUFFIX,rayark.net
 - DOMAIN-SUFFIX,rblx.co
 - DOMAIN-SUFFIX,rblx.com
 - DOMAIN-SUFFIX,rblx.org
