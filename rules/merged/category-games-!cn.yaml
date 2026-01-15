@@ -538,6 +538,8 @@ payload:
 - DOMAIN-SUFFIX,sekai.colorfulpalette.org
 - DOMAIN-SUFFIX,sentry.ppy.sh
 - DOMAIN-SUFFIX,shadowcomplex.com
+- DOMAIN-SUFFIX,sih-db.com
+- DOMAIN-SUFFIX,sih.app
 - DOMAIN-SUFFIX,simcity-buildit.com
 - DOMAIN-SUFFIX,simcity.com
 - DOMAIN-SUFFIX,skate2.com
@@ -590,6 +592,7 @@ payload:
 - DOMAIN-SUFFIX,steamdb.info
 - DOMAIN-SUFFIX,steamdeck.com
 - DOMAIN-SUFFIX,steamgames.com
+- DOMAIN-SUFFIX,steaminventoryhelper.com
 - DOMAIN-SUFFIX,steammobile.akamaized.net
 - DOMAIN-SUFFIX,steampipe-kr.akamaized.net
 - DOMAIN-SUFFIX,steampipe-partner.akamaized.net
