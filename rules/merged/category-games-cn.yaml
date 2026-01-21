@@ -40,7 +40,7 @@ payload:
 - DOMAIN-SUFFIX,9game.cn
 - DOMAIN-SUFFIX,9xgame.com
 - DOMAIN-SUFFIX,abdf002.com
-- DOMAIN-SUFFIX,aki-game.com @cn
+- DOMAIN-SUFFIX,aki-game.com
 - DOMAIN-SUFFIX,anticheatexpert.com
 - DOMAIN-SUFFIX,appeeres.com
 - DOMAIN-SUFFIX,astral-vector.com
@@ -103,7 +103,7 @@ payload:
 - DOMAIN-SUFFIX,img4399.com
 - DOMAIN-SUFFIX,in.th
 - DOMAIN-SUFFIX,juequling.com
-- DOMAIN-SUFFIX,kurogames.com @cn
+- DOMAIN-SUFFIX,kurogames.com
 - DOMAIN-SUFFIX,labycore.cn
 - DOMAIN-SUFFIX,langrenclub.com
 - DOMAIN-SUFFIX,ledu.com
@@ -149,7 +149,6 @@ payload:
 - DOMAIN-SUFFIX,realcybertron.com
 - DOMAIN-SUFFIX,regexp:^.+-mihayo\.akamaized\.net$ @cn
 - DOMAIN-SUFFIX,rmwxgame.com
-- DOMAIN-SUFFIX,ro.com
 - DOMAIN-SUFFIX,roblox.cn
 - DOMAIN-SUFFIX,roblox.qq.com
 - DOMAIN-SUFFIX,robloxdev.cn
@@ -166,13 +165,6 @@ payload:
 - DOMAIN-SUFFIX,supercellcommunity.cn
 - DOMAIN-SUFFIX,supercellsupport.cn
 - DOMAIN-SUFFIX,syxlgame.com
-- DOMAIN-SUFFIX,tapapks.com
-- DOMAIN-SUFFIX,tapimg.com
-- DOMAIN-SUFFIX,tapimg.net
-- DOMAIN-SUFFIX,taptap.cn
-- DOMAIN-SUFFIX,taptap.com
-- DOMAIN-SUFFIX,taptap.io @!cn
-- DOMAIN-SUFFIX,taptapdada.com
 - DOMAIN-SUFFIX,tcfmglobal.com
 - DOMAIN-SUFFIX,tencent-gcloud.com
 - DOMAIN-SUFFIX,tencentstart.com
@@ -204,11 +196,7 @@ payload:
 - DOMAIN-SUFFIX,winegame.net
 - DOMAIN-SUFFIX,wmsj.cn
 - DOMAIN-SUFFIX,wo1wan.com
-- DOMAIN-SUFFIX,xd.cn
-- DOMAIN-SUFFIX,xd.com
-- DOMAIN-SUFFIX,xdcdn.net
 - DOMAIN-SUFFIX,xhlsgs.com
-- DOMAIN-SUFFIX,xindong.com
 - DOMAIN-SUFFIX,xinwuji.com
 - 'DOMAIN-SUFFIX,xn--owtw8cc49ajfl.cn #碧蓝幻想.cn'
 - DOMAIN-SUFFIX,ycgame.com
