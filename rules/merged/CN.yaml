@@ -4,7 +4,6 @@ payload:
 - DOMAIN,api.biliapi.com
 - DOMAIN,api.biliapi.net
 - DOMAIN,api.bilibili.com
-- DOMAIN,apiintl.biliapi.net
 - DOMAIN,app.biliapi.com
 - DOMAIN,app.biliapi.net
 - DOMAIN,app.bilibili.com
@@ -33,7 +32,6 @@ payload:
 - DOMAIN,grpc.biliapi.net
 - DOMAIN,hmrz.wo.cn
 - DOMAIN,id.mail.wo.cn
-- DOMAIN,intel-cache.m.iqiyi.com
 - DOMAIN,intel-cache.video.iqiyi.com
 - DOMAIN,intl-rcd.iqiyi.com
 - DOMAIN,intl-subscription.iqiyi.com
