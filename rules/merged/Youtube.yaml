@@ -1,6 +1,7 @@
 payload:
 - DOMAIN,api.imem.app
 - DOMAIN,api.swiftgram.app
+- DOMAIN,gspe1-ssl.ls.apple.com
 - DOMAIN,np-edge.itunes.apple.com
 - DOMAIN,play-edge.itunes.apple.com
 - DOMAIN,youtubei.googleapis.com
@@ -12,6 +13,7 @@ payload:
 - DOMAIN-KEYWORD,telegram
 - DOMAIN-KEYWORD,ttvnw
 - DOMAIN-KEYWORD,twitter
+- DOMAIN-KEYWORD,youtube
 - DOMAIN-SUFFIX,8teenxxx.com
 - DOMAIN-SUFFIX,ahcdn.com
 - DOMAIN-SUFFIX,bcvcdn.com
