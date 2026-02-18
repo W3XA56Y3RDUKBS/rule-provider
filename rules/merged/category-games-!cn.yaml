@@ -594,6 +594,7 @@ payload:
 - DOMAIN-SUFFIX,starcraft.com
 - DOMAIN-SUFFIX,starcraft2.com
 - DOMAIN-SUFFIX,starfox.com
+- DOMAIN-SUFFIX,stargazer-games.com
 - DOMAIN-SUFFIX,starwarsbattlefront.com
 - DOMAIN-SUFFIX,starwarsbattlefront2.com
 - DOMAIN-SUFFIX,starwarsfallenorder.com
@@ -638,6 +639,8 @@ payload:
 - DOMAIN-SUFFIX,steamusercontent.com
 - DOMAIN-SUFFIX,steamuserimages-a.akamaihd.net
 - DOMAIN-SUFFIX,steamvideo-a.akamaihd.net
+- DOMAIN-SUFFIX,stellasora.global
+- DOMAIN-SUFFIX,stellasora.jp
 - DOMAIN-SUFFIX,supercell.com
 - DOMAIN-SUFFIX,supercell.helpshift.com
 - DOMAIN-SUFFIX,supercell.net
@@ -775,8 +778,14 @@ payload:
 - DOMAIN-SUFFIX,xz.pphimalayanrt.com @cn
 - DOMAIN-SUFFIX,ylands.com
 - DOMAIN-SUFFIX,ynoproject.net
+- DOMAIN-SUFFIX,yo-star.com
 - DOMAIN-SUFFIX,yogify.com
 - DOMAIN-SUFFIX,yoshisnewisland.com
+- DOMAIN-SUFFIX,yostar-pictures.co.jp
+- DOMAIN-SUFFIX,yostar.cn @cn
+- DOMAIN-SUFFIX,yostar.co.jp
+- DOMAIN-SUFFIX,yostar.net
+- DOMAIN-SUFFIX,yostarplat.com
 - DOMAIN-SUFFIX,zenlesszonezero.com
 - DOMAIN-SUFFIX,zynga.com
 - DOMAIN-SUFFIX,zyngaplayersupport.com
