@@ -6,3 +6,4 @@ payload:
   - DOMAIN-KEYWORD,cmdw
   - DOMAIN-KEYWORD,oddba
   - DOMAIN-SUFFIX,ntp.ubuntu.com
+  - DOMAIN-KEYWORD,quickconnect
