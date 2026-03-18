@@ -6,7 +6,8 @@ payload:
   - DOMAIN-SUFFIX,d4.ingest.gdp.blizzard.com
   - IP-CIDR,34.153.218.35/24
   - PROCESS-NAME,Diablo IV.exe
-
+  - PROCESS-NAME-REGEX,(?i)Diablo.*exe
+  
   # just dance
   - DOMAIN-SUFFIX,blz-contentstack-images.akamaized.net
   - DOMAIN-SUFFIX,public-ubiservices.ubi.com
