@@ -5,6 +5,7 @@ payload:
   - DOMAIN-SUFFIX,prod.actual.battle.net
   - DOMAIN-SUFFIX,d4.ingest.gdp.blizzard.com
   - IP-CIDR,34.153.218.35/24
+  - IP-CIDR,35.194.147.126/24
   - PROCESS-NAME,Diablo IV.exe
   - PROCESS-NAME-REGEX,(?i)Diablo.*exe
   
