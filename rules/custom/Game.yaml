@@ -1,10 +1,14 @@
 payload:
-
-  # ubisoft
-  - DOMAIN-KEYWORD,ubisoft
+  # Diablo IV.exe
+  - DOMAIN-SUFFIX,blz-contentstack-images.akamaized.net
+  - DOMAIN-SUFFIX,prod.depot.battle.net
+  - DOMAIN-SUFFIX,prod.actual.battle.net
+  - DOMAIN-SUFFIX,d4.ingest.gdp.blizzard.com
+  - IP-CIDR,34.153.218.35/24
+  - PROCESS-NAME,Diablo IV.exe
 
   # just dance
-  - DOMAIN-SUFFIX,ubistatic-a.akamaihd.net
+  - DOMAIN-SUFFIX,blz-contentstack-images.akamaized.net
   - DOMAIN-SUFFIX,public-ubiservices.ubi.com
   - DOMAIN-SUFFIX,public-ws-ubiservices.ubi.com
   - DOMAIN-KEYWORD,just-dance
