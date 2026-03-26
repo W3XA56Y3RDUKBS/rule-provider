@@ -82,6 +82,7 @@ payload:
 - DOMAIN-SUFFIX,cdngarenanow-a.akamaihd.net
 - DOMAIN-SUFFIX,championshipseriesleague.com
 - DOMAIN-SUFFIX,chillingo.com
+- DOMAIN-SUFFIX,chunkbase.com
 - DOMAIN-SUFFIX,clash.com
 - DOMAIN-SUFFIX,clashmini.com
 - DOMAIN-SUFFIX,clashofclans.com
@@ -319,6 +320,7 @@ payload:
 - DOMAIN-SUFFIX,minecraft-services.net
 - DOMAIN-SUFFIX,minecraft.net
 - DOMAIN-SUFFIX,minecraft.wiki
+- DOMAIN-SUFFIX,minecraftforge.net
 - DOMAIN-SUFFIX,minecraftservices.com
 - DOMAIN-SUFFIX,minecraftshop.com
 - DOMAIN-SUFFIX,mirrorsedge.com
@@ -339,6 +341,7 @@ payload:
 - DOMAIN-SUFFIX,mythicentertainment.net
 - DOMAIN-SUFFIX,mythicgames.com
 - DOMAIN-SUFFIX,n0vadesktop.com
+- DOMAIN-SUFFIX,namemc.com
 - DOMAIN-SUFFIX,needforspeed.com
 - DOMAIN-SUFFIX,needforspeedboost.com
 - DOMAIN-SUFFIX,needforspeeddriftkings.com
@@ -354,6 +357,7 @@ payload:
 - DOMAIN-SUFFIX,needforspeedtimeattack.com
 - DOMAIN-SUFFIX,needforspeedundergroundeast.com
 - DOMAIN-SUFFIX,nentindo.net
+- DOMAIN-SUFFIX,neoforged.net
 - DOMAIN-SUFFIX,newsupermariobrosu.com
 - DOMAIN-SUFFIX,nexon.co.jp
 - DOMAIN-SUFFIX,nexon.com
@@ -414,6 +418,7 @@ payload:
 - DOMAIN-SUFFIX,omotenashi.cygames.jp
 - DOMAIN-SUFFIX,op.gg
 - DOMAIN-SUFFIX,opgg-static.akamaized.net
+- DOMAIN-SUFFIX,optifine.net
 - DOMAIN-SUFFIX,origin-a.akamaihd.net
 - DOMAIN-SUFFIX,origin.com
 - DOMAIN-SUFFIX,origin.tv
@@ -580,6 +585,7 @@ payload:
 - DOMAIN-SUFFIX,spectator.ppy.sh
 - DOMAIN-SUFFIX,speedhunters.com
 - DOMAIN-SUFFIX,speedrun.com
+- DOMAIN-SUFFIX,spigotmc.org
 - DOMAIN-SUFFIX,splatoon2tournament.com
 - DOMAIN-SUFFIX,spore.com
 - DOMAIN-SUFFIX,spyjinx.com
