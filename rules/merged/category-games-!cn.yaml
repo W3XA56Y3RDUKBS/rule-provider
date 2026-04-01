@@ -311,6 +311,7 @@ payload:
 - DOMAIN-SUFFIX,mariosupersluggers.com
 - DOMAIN-SUFFIX,masseffect.com
 - DOMAIN-SUFFIX,masseffectarchives.com
+- DOMAIN-SUFFIX,masteroforion.com
 - DOMAIN-SUFFIX,maxis.com
 - DOMAIN-SUFFIX,media-rockstargames-com.akamaized.net
 - DOMAIN-SUFFIX,menu-static.gog-statics.com @cn
@@ -733,6 +734,8 @@ payload:
 - DOMAIN-SUFFIX,vrchat.cloud
 - DOMAIN-SUFFIX,vrchat.com
 - DOMAIN-SUFFIX,vrchat.net
+- DOMAIN-SUFFIX,wargaming.com
+- DOMAIN-SUFFIX,wargaming.net
 - DOMAIN-SUFFIX,wariolandshakeit.com
 - DOMAIN-SUFFIX,wariowarediy.com
 - DOMAIN-SUFFIX,warnerbrosgames.com
@@ -741,6 +744,8 @@ payload:
 - DOMAIN-SUFFIX,wbagora.com
 - DOMAIN-SUFFIX,wbgames.com
 - DOMAIN-SUFFIX,wbinsights.com
+- DOMAIN-SUFFIX,wgcdn.co
+- DOMAIN-SUFFIX,wgcrowd.io
 - DOMAIN-SUFFIX,wii-u.com
 - DOMAIN-SUFFIX,wiifit.com
 - DOMAIN-SUFFIX,wiifitu.com
@@ -752,7 +757,13 @@ payload:
 - DOMAIN-SUFFIX,wmsjsteam.com @cn
 - DOMAIN-SUFFIX,worldflipper.akamaized.net
 - DOMAIN-SUFFIX,worldflipper.jp
+- DOMAIN-SUFFIX,worldoftanks.com
+- DOMAIN-SUFFIX,worldoftanks.eu
 - DOMAIN-SUFFIX,worldofwarcraft.com
+- DOMAIN-SUFFIX,worldofwarplanes.com
+- DOMAIN-SUFFIX,worldofwarships.com
+- DOMAIN-SUFFIX,wotblitz.com
+- DOMAIN-SUFFIX,wowsblitz.com
 - DOMAIN-SUFFIX,wtmobile.com
 - DOMAIN-SUFFIX,www4-static.gog-statics.com @cn
 - DOMAIN-SUFFIX,xbox
