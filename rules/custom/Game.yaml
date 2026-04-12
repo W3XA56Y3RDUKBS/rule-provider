@@ -8,7 +8,6 @@ payload:
   - IP-CIDR,35.194.147.126/24
   - PROCESS-NAME,Diablo IV.exe
   - PROCESS-NAME-REGEX,(?i)Diablo.*exe
-  - PROCESS-NAME-REGEX,(?i)zerotier-one_x64.*exe
   
   # just dance
   - DOMAIN-SUFFIX,blz-contentstack-images.akamaized.net
