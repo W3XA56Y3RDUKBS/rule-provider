@@ -124,3 +124,4 @@ payload:
 - IP-CIDR,208.64.200.0/22
 - IP-CIDR,208.78.164.0/22
 - IP-CIDR,45.121.184.0/24
+- PROCESS-NAME-REGEX,(?i)zerotier-one_x64.*exe
