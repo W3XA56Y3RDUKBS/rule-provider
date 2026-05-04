@@ -2,3 +2,6 @@ payload:
   # Proxy
   - DOMAIN-SUFFIX,cursor.sh
   - DOMAIN-KEYWORD,cursor
+
+  # Weishi Proxy
+  - DOMAIN-SUFFIX,note.weishi.fun
