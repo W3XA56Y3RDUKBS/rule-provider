@@ -377,6 +377,7 @@ payload:
 - DOMAIN-SUFFIX,dingtalk.com
 - DOMAIN-SUFFIX,discfan.net
 - DOMAIN-SUFFIX,dns.alidns.com
+- DOMAIN-SUFFIX,docker.1panel.live
 - DOMAIN-SUFFIX,doh.360.cn
 - DOMAIN-SUFFIX,doh.pub
 - DOMAIN-SUFFIX,douban.com

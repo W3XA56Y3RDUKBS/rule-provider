@@ -87,6 +87,7 @@ payload:
 - DOMAIN-SUFFIX,cdn.ubi.com
 - DOMAIN-SUFFIX,cm.steampowered.com
 - DOMAIN-SUFFIX,dl.playstation.net
+- DOMAIN-SUFFIX,docker.1panel.live
 - DOMAIN-SUFFIX,dyn.riotcdn.net
 - DOMAIN-SUFFIX,gamedownloads-rockstargames-com.akamaized.net
 - DOMAIN-SUFFIX,gladys-upload.tools.paralleldata.tech
