@@ -129,6 +129,7 @@ payload:
 - DOMAIN-SUFFIX,dodi-repacks.site
 - DOMAIN-SUFFIX,donkeykongcountryreturns.com
 - DOMAIN-SUFFIX,doom.com
+- DOMAIN-SUFFIX,dota2.com
 - DOMAIN-SUFFIX,dota2.wmsj.cn @cn
 - DOMAIN-SUFFIX,dragonage.com
 - DOMAIN-SUFFIX,dragonagekeep.com
@@ -173,8 +174,6 @@ payload:
 - DOMAIN-SUFFIX,electronicarts.fr
 - DOMAIN-SUFFIX,embark-studios.com
 - DOMAIN-SUFFIX,embark.games
-- DOMAIN-SUFFIX,eneba.com
-- DOMAIN-SUFFIX,eneba.games
 - DOMAIN-SUFFIX,enlisted.net
 - DOMAIN-SUFFIX,epicgames.com
 - DOMAIN-SUFFIX,epicgames.dev
@@ -187,6 +186,7 @@ payload:
 - DOMAIN-SUFFIX,faceit-cdn.net
 - DOMAIN-SUFFIX,faceit.com
 - DOMAIN-SUFFIX,fanatical.com
+- DOMAIN-SUFFIX,ficgs.com
 - DOMAIN-SUFFIX,fifastreet.com
 - DOMAIN-SUFFIX,fifastreet3.com
 - DOMAIN-SUFFIX,fire-emblem-heroes.com
@@ -212,6 +212,8 @@ payload:
 - DOMAIN-SUFFIX,gamedownloads-rockstargames-com.akamaized.net
 - DOMAIN-SUFFIX,gamepass.com
 - DOMAIN-SUFFIX,gamesfirsthelsinki.com
+- DOMAIN-SUFFIX,gamesplanet.com
+- DOMAIN-SUFFIX,gametap.com
 - DOMAIN-SUFFIX,garena.co.id
 - DOMAIN-SUFFIX,garena.co.th
 - DOMAIN-SUFFIX,garena.com
@@ -236,6 +238,7 @@ payload:
 - DOMAIN-SUFFIX,gog.qtlglb.com @cn
 - DOMAIN-SUFFIX,gogalaxy.gog-statics.com @cn
 - DOMAIN-SUFFIX,gooblox.com
+- DOMAIN-SUFFIX,gpstatic.com
 - DOMAIN-SUFFIX,gstore.val.manlaxy.com @cn
 - DOMAIN-SUFFIX,hackyourconsole.com
 - DOMAIN-SUFFIX,hayday.com
@@ -382,7 +385,9 @@ payload:
 - DOMAIN-SUFFIX,nexon.co.jp
 - DOMAIN-SUFFIX,nexon.com
 - DOMAIN-SUFFIX,nexon.io
+- DOMAIN-SUFFIX,nexon.net
 - DOMAIN-SUFFIX,nexoncdn.co.kr
+- DOMAIN-SUFFIX,nexongames.co.kr
 - DOMAIN-SUFFIX,nexus-cdn.com
 - DOMAIN-SUFFIX,nexusmods.com
 - DOMAIN-SUFFIX,nfsworld.com
@@ -749,6 +754,7 @@ payload:
 - DOMAIN-SUFFIX,uoherald.com
 - DOMAIN-SUFFIX,uplay.com
 - DOMAIN-SUFFIX,uplaypc-s-ubisoft.cdn.ubi.com @cn
+- DOMAIN-SUFFIX,valve.net
 - DOMAIN-SUFFIX,valvesoftware.com
 - DOMAIN-SUFFIX,videos-rockstargames-com.akamaized.net
 - DOMAIN-SUFFIX,vigorgame.com
