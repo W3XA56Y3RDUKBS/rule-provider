@@ -651,6 +651,7 @@ payload:
 - DOMAIN-SUFFIX,steamcommunity-a.akamaihd.net
 - DOMAIN-SUFFIX,steamcommunity-a.akamaihd.net.edgesuite.net
 - DOMAIN-SUFFIX,steamcommunity.com
+- DOMAIN-SUFFIX,steamconnecttest.com
 - DOMAIN-SUFFIX,steamcontent.com
 - DOMAIN-SUFFIX,steamdb.info
 - DOMAIN-SUFFIX,steamdeck.com
