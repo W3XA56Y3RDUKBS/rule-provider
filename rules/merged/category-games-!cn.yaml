@@ -678,6 +678,7 @@ payload:
 - DOMAIN-SUFFIX,supercell.com
 - DOMAIN-SUFFIX,supercell.helpshift.com
 - DOMAIN-SUFFIX,supercell.net
+- DOMAIN-SUFFIX,supercell.zendesk.com
 - DOMAIN-SUFFIX,supercellcreators.com
 - DOMAIN-SUFFIX,supercellgames.com
 - DOMAIN-SUFFIX,supercellid.com
