@@ -98,6 +98,7 @@ payload:
 - DOMAIN-SUFFIX,crossout.net
 - DOMAIN-SUFFIX,crsed.net
 - DOMAIN-SUFFIX,crysis.jp
+- DOMAIN-SUFFIX,csgo.com.cn @cn
 - DOMAIN-SUFFIX,csgo.wmsj.cn @cn
 - DOMAIN-SUFFIX,cubicmotion.com
 - DOMAIN-SUFFIX,cubicodyssey.game
@@ -130,6 +131,7 @@ payload:
 - DOMAIN-SUFFIX,donkeykongcountryreturns.com
 - DOMAIN-SUFFIX,doom.com
 - DOMAIN-SUFFIX,dota2.com
+- DOMAIN-SUFFIX,dota2.com.cn @cn
 - DOMAIN-SUFFIX,dota2.wmsj.cn @cn
 - DOMAIN-SUFFIX,dragonage.com
 - DOMAIN-SUFFIX,dragonagekeep.com
@@ -233,9 +235,11 @@ payload:
 - DOMAIN-SUFFIX,goblox.com
 - DOMAIN-SUFFIX,gog-cdn-lumen.secure2.footprint.net
 - DOMAIN-SUFFIX,gog-cdn.akamaized.net
+- DOMAIN-SUFFIX,gog-services.com
 - DOMAIN-SUFFIX,gog-statics.com
 - DOMAIN-SUFFIX,gog.com
 - DOMAIN-SUFFIX,gog.qtlglb.com @cn
+- DOMAIN-SUFFIX,gogalaxy.com
 - DOMAIN-SUFFIX,gooblox.com
 - DOMAIN-SUFFIX,gpstatic.com
 - DOMAIN-SUFFIX,gstore.val.manlaxy.com @cn
@@ -258,6 +262,7 @@ payload:
 - DOMAIN-SUFFIX,hutpromos.com
 - DOMAIN-SUFFIX,hyprsense.com
 - DOMAIN-SUFFIX,industrialtoys.com
+- DOMAIN-SUFFIX,insights-collector.gog.com @ads
 - DOMAIN-SUFFIX,instituteofwar.org
 - DOMAIN-SUFFIX,itch.io
 - DOMAIN-SUFFIX,itch.zone
