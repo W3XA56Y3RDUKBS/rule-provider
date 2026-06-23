@@ -17,3 +17,5 @@ payload:
   - DOMAIN-KEYWORD,weishi
 
   - DOMAIN-SUFFIX,docker.1panel.live
+
+  - DOMAIN-SUFFIX,search.lmstudio.ai
