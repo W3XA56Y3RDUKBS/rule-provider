@@ -96,6 +96,7 @@ payload:
 - DOMAIN-SUFFIX,ntp.ubuntu.com
 - DOMAIN-SUFFIX,pdl.wow.battlenet.com.cn
 - DOMAIN-SUFFIX,s3-video-stream-xiaohongshu.sg.cdn.weishivps001.top
+- DOMAIN-SUFFIX,search.lmstudio.ai
 - DOMAIN-SUFFIX,speed.neu6.edu.cn
 - DOMAIN-SUFFIX,steampipe.akamaized.net
 - DOMAIN-SUFFIX,steamserver.net
