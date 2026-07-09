@@ -90,7 +90,6 @@ payload:
 - DOMAIN-SUFFIX,clashroyale.com
 - DOMAIN-SUFFIX,clashroyaleapp.com
 - DOMAIN-SUFFIX,client-update.queniuqe.com @cn
-- DOMAIN-SUFFIX,cloudsync-prod.s3.amazonaws.com
 - DOMAIN-SUFFIX,cncrivals.com
 - DOMAIN-SUFFIX,commandandconquer.com
 - DOMAIN-SUFFIX,conquerwithcharacter.com
@@ -165,7 +164,6 @@ payload:
 - DOMAIN-SUFFIX,easportsfootballclub.com
 - DOMAIN-SUFFIX,easportsmma.com
 - DOMAIN-SUFFIX,easportsworld.com
-- DOMAIN-SUFFIX,eastore.com
 - DOMAIN-SUFFIX,easy.ac
 - DOMAIN-SUFFIX,easyanticheat.net
 - DOMAIN-SUFFIX,edge.steam-dns.top.comcast.net
@@ -227,7 +225,6 @@ payload:
 - DOMAIN-SUFFIX,garena.tw
 - DOMAIN-SUFFIX,garena.vn
 - DOMAIN-SUFFIX,garenanow.com
-- DOMAIN-SUFFIX,genshinimpact.com
 - DOMAIN-SUFFIX,ghostgames.com
 - DOMAIN-SUFFIX,giratina.com
 - DOMAIN-SUFFIX,gloryofheracles.com
@@ -252,11 +249,6 @@ payload:
 - DOMAIN-SUFFIX,historyofdota.com
 - DOMAIN-SUFFIX,historyofdota.net
 - DOMAIN-SUFFIX,historyofdota.org
-- DOMAIN-SUFFIX,honkaiimpact3.com
-- DOMAIN-SUFFIX,honkaistarrail.com
-- DOMAIN-SUFFIX,hoyo.link
-- DOMAIN-SUFFIX,hoyolab.com
-- DOMAIN-SUFFIX,hoyoverse.com
 - DOMAIN-SUFFIX,humancoexperience.com
 - DOMAIN-SUFFIX,humblebundle.com
 - DOMAIN-SUFFIX,hutpromos.com
@@ -305,7 +297,6 @@ payload:
 - DOMAIN-SUFFIX,learnwithleague.com
 - DOMAIN-SUFFIX,legendofzelda.cn @cn
 - DOMAIN-SUFFIX,legendofzelda.com.cn @cn
-- DOMAIN-SUFFIX,log-upload-os.hoyoverse.com @ads
 - DOMAIN-SUFFIX,lol-europe.com
 - DOMAIN-SUFFIX,lolclub.org
 - DOMAIN-SUFFIX,lolespor.com
@@ -316,7 +307,6 @@ payload:
 - DOMAIN-SUFFIX,lolstatic-a.akamaihd.net
 - DOMAIN-SUFFIX,lolstatic.com
 - DOMAIN-SUFFIX,lolusercontent.com
-- DOMAIN-SUFFIX,lordofultima.com
 - DOMAIN-SUFFIX,loverslab.com
 - DOMAIN-SUFFIX,lowiro.com
 - DOMAIN-SUFFIX,lpl.com.cn @cn
@@ -366,7 +356,6 @@ payload:
 - DOMAIN-SUFFIX,mythicentertainment.com
 - DOMAIN-SUFFIX,mythicentertainment.net
 - DOMAIN-SUFFIX,mythicgames.com
-- DOMAIN-SUFFIX,n0vadesktop.com
 - DOMAIN-SUFFIX,namemc.com
 - DOMAIN-SUFFIX,needforspeed.com
 - DOMAIN-SUFFIX,needforspeedboost.com
@@ -447,17 +436,12 @@ payload:
 - DOMAIN-SUFFIX,op.gg
 - DOMAIN-SUFFIX,opgg-static.akamaized.net
 - DOMAIN-SUFFIX,optifine.net
-- DOMAIN-SUFFIX,origin-a.akamaihd.net
-- DOMAIN-SUFFIX,origin.com
-- DOMAIN-SUFFIX,origin.tv
 - DOMAIN-SUFFIX,orithegame.com
 - DOMAIN-SUFFIX,osu.ppy.sh
 - DOMAIN-SUFFIX,pandanet-igs.com
 - DOMAIN-SUFFIX,papermc.io
 - DOMAIN-SUFFIX,paragon.com
 - DOMAIN-SUFFIX,personaltrainermath.com
-- DOMAIN-SUFFIX,pinkcore.com
-- DOMAIN-SUFFIX,pinkcore.net
 - DOMAIN-SUFFIX,pjsekai.sega.jp
 - DOMAIN-SUFFIX,planetminecraft.com
 - DOMAIN-SUFFIX,plantsvszombies2.com
@@ -587,7 +571,6 @@ payload:
 - DOMAIN-SUFFIX,rowblox.com
 - DOMAIN-SUFFIX,rsg.sc
 - DOMAIN-SUFFIX,rstatic.net
-- DOMAIN-SUFFIX,rtm.tnt-ea.com
 - DOMAIN-SUFFIX,ruinedking.com
 - DOMAIN-SUFFIX,s.team
 - DOMAIN-SUFFIX,seagroup.com
@@ -616,7 +599,6 @@ payload:
 - DOMAIN-SUFFIX,spore.com
 - DOMAIN-SUFFIX,spyjinx.com
 - DOMAIN-SUFFIX,squadbusters.com
-- DOMAIN-SUFFIX,ssl-lvlt.cdn.ea.com
 - DOMAIN-SUFFIX,ssx3.com
 - DOMAIN-SUFFIX,st.dl.bscstorage.net @cn
 - DOMAIN-SUFFIX,st.dl.eccdnx.com @cn
@@ -831,7 +813,6 @@ payload:
 - DOMAIN-SUFFIX,yostar.net
 - DOMAIN-SUFFIX,yostarplat.com
 - DOMAIN-SUFFIX,yugioh-card.com
-- DOMAIN-SUFFIX,zenlesszonezero.com
 - DOMAIN-SUFFIX,zynga.com
 - DOMAIN-SUFFIX,zyngaplayersupport.com
 - DOMAIN-SUFFIX,zyngapoker.com
