@@ -28,7 +28,6 @@ payload:
 - DOMAIN-SUFFIX,artstation.com
 - DOMAIN-SUFFIX,artstationmedia.com
 - DOMAIN-SUFFIX,artstorm.com
-- DOMAIN-SUFFIX,asobostudio.com
 - DOMAIN-SUFFIX,assets.ppy.sh
 - DOMAIN-SUFFIX,avatargarenanow-a.akamaihd.net
 - DOMAIN-SUFFIX,awayoutgame.com
@@ -214,8 +213,6 @@ payload:
 - DOMAIN-SUFFIX,fireemblemawakening.com
 - DOMAIN-SUFFIX,firesidegatherings.com
 - DOMAIN-SUFFIX,fitgirl-repacks.site
-- DOMAIN-SUFFIX,flightsimulator.azureedge.net
-- DOMAIN-SUFFIX,flightsimulator.com
 - DOMAIN-SUFFIX,flipnotestudio.com
 - DOMAIN-SUFFIX,forgecdn.net
 - DOMAIN-SUFFIX,fortnite-vod.akamaized.net
