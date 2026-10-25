@@ -880,6 +880,7 @@ payload:
 - DOMAIN-SUFFIX,compose-spec.io
 - DOMAIN-SUFFIX,connect.facebook.net
 - DOMAIN-SUFFIX,conoha.jp
+- DOMAIN-SUFFIX,console.typesafe.ai
 - DOMAIN-SUFFIX,contests.twilio.com
 - DOMAIN-SUFFIX,cool18.com
 - DOMAIN-SUFFIX,coolaler.com
@@ -1455,6 +1456,7 @@ payload:
 - DOMAIN-SUFFIX,g.co
 - DOMAIN-SUFFIX,g0v.social
 - DOMAIN-SUFFIX,g6hentai.com
+- DOMAIN-SUFFIX,ga.jspm.io
 - DOMAIN-SUFFIX,gab.com
 - DOMAIN-SUFFIX,gabocorp.com
 - DOMAIN-SUFFIX,gagaoolala.com
