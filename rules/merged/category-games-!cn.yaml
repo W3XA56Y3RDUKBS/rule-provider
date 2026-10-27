@@ -286,7 +286,7 @@ payload:
 - DOMAIN-SUFFIX,hyprsense.com
 - DOMAIN-SUFFIX,industrialtoys.com
 - DOMAIN-SUFFIX,infinityward.com
-- DOMAIN-SUFFIX,insights-collector.gog.com @ads
+- DOMAIN-SUFFIX,insights-collector.gog.com @ads @telemetry
 - DOMAIN-SUFFIX,instituteofwar.org
 - DOMAIN-SUFFIX,itch.io
 - DOMAIN-SUFFIX,itch.zone
@@ -329,7 +329,7 @@ payload:
 - DOMAIN-SUFFIX,learnwithleague.com
 - DOMAIN-SUFFIX,legendofzelda.cn @cn
 - DOMAIN-SUFFIX,legendofzelda.com.cn @cn
-- DOMAIN-SUFFIX,log-upload-os.hoyoverse.com @ads
+- DOMAIN-SUFFIX,log-upload-os.hoyoverse.com @ads @telemetry
 - DOMAIN-SUFFIX,lol-europe.com
 - DOMAIN-SUFFIX,lolclub.org
 - DOMAIN-SUFFIX,lolespor.com
@@ -624,7 +624,7 @@ payload:
 - DOMAIN-SUFFIX,seeurlpcl.com
 - DOMAIN-SUFFIX,sekai.colorfulpalette.org
 - DOMAIN-SUFFIX,sekirothegame.com
-- DOMAIN-SUFFIX,sentry.ppy.sh
+- DOMAIN-SUFFIX,sentry.ppy.sh @telemetry
 - DOMAIN-SUFFIX,shadowcomplex.com
 - DOMAIN-SUFFIX,sierragames.com
 - DOMAIN-SUFFIX,sih-db.com
