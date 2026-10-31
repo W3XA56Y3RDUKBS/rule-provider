@@ -17,6 +17,7 @@ payload:
 - DOMAIN-SUFFIX,activisionblizzard.com
 - DOMAIN-SUFFIX,activisionblizzardmedia.com
 - DOMAIN-SUFFIX,alibaba.cdn.steampipe.steamcontent.com @cn
+- DOMAIN-SUFFIX,amdgaming.com
 - DOMAIN-SUFFIX,amiibo.com
 - DOMAIN-SUFFIX,anthemgame.com
 - DOMAIN-SUFFIX,anthemthegame.com
