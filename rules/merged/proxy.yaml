@@ -1110,6 +1110,7 @@ payload:
 - DOMAIN-SUFFIX,dtiblog.com
 - DOMAIN-SUFFIX,dtic.mil
 - DOMAIN-SUFFIX,dubox.com
+- DOMAIN-SUFFIX,duck.ai
 - DOMAIN-SUFFIX,duck.com
 - DOMAIN-SUFFIX,duckduckgo.com
 - DOMAIN-SUFFIX,duckmylife.com
@@ -1470,10 +1471,10 @@ payload:
 - DOMAIN-SUFFIX,gabocorp.com
 - DOMAIN-SUFFIX,gagaoolala.com
 - DOMAIN-SUFFIX,galenwu.com
-- DOMAIN-SUFFIX,game735.com
 - DOMAIN-SUFFIX,gameloft.com
 - DOMAIN-SUFFIX,gamer.com.tw
 - DOMAIN-SUFFIX,gamez.com.tw
+- DOMAIN-SUFFIX,gamma.app
 - DOMAIN-SUFFIX,ganjing.com
 - DOMAIN-SUFFIX,ganjingworld.com
 - DOMAIN-SUFFIX,gaoming.net
@@ -3497,6 +3498,7 @@ payload:
 - DOMAIN-SUFFIX,sotwe.com
 - DOMAIN-SUFFIX,soubory.com
 - DOMAIN-SUFFIX,soulcaliburhentai.net
+- DOMAIN-SUFFIX,soulogic.com
 - DOMAIN-SUFFIX,soundcloud.com
 - DOMAIN-SUFFIX,soundofhope.org
 - DOMAIN-SUFFIX,soundon.fm
